@@ -6,16 +6,13 @@
 }
 
 
-body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
+
 
 .section1 {
     width: 100vw;
     height: 100vh;
     background-color: #f6ebf7;
+    overflow: hidden;
 }
 
 .main-c {
@@ -106,30 +103,18 @@ body {
 
 /* ----------------------------set txt */
 .wai {
-    font-size: 6rem;
-    font-family: 'RixYeoljeongdo_Regular';
-    font-weight: bold;
-    font-style: italic;
     text-shadow: 7px 7px 0px white;
     top: 20vh;
     left: 4vw;
 }
 
 .work {
-    font-size: 6rem;
-    font-family: 'RixYeoljeongdo_Regular';
-    font-weight: bold;
-    font-style: italic;
     text-shadow: 7px 7px 0px white;
     top: 73vh;
     left: 85vw;
 }
 
 .etc {
-    font-size: 6rem;
-    font-family: 'RixYeoljeongdo_Regular';
-    font-weight: bold;
-    font-style: italic;
     text-shadow: 7px 7px 0px white;
     top: 65vh;
     left: 22vw;

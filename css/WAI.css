@@ -1,0 +1,52 @@
+/* WHO AM I _PAGE  */
+.section2{
+    width: 100vw;
+    height: 100vh;
+}
+.link{
+    width: 100vw;
+    height: 6vh;
+    background-color:#F7BABF ;
+}
+.surch{
+    width: 60vw;
+    height: 4vh;
+    background-color: white;
+    border-radius: 20px;
+    text-align:start;
+    line-height: 4vh;
+    border: 10px;
+    top: 1vh;
+    left: 5vw;
+}
+
+.linkBt{
+    width: 3vw;
+    height: 4vh;
+    top: 1vh;
+    left: 1vw;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.heart{
+    width: 35vw;
+    height: 6vh;
+    /* border: 1px solid black; */
+    top: 0.5vh;
+    left: 65vw;
+    display:grid;
+    grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.heart>img{
+    width: 80%;
+    height: 80%;
+}
+.linktext{
+    font-size: 1.5rem;
+    font-family:'RixYeoljeongdo_Regular' ;
+    margin-left: 30px;
+    
+}
