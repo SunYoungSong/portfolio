@@ -19,8 +19,8 @@ body {
 }
 
 .main-c {
-    width: 30%;
-    height: 30%;
+    width: 40vw;
+    height: 40vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,41 +29,71 @@ body {
 .main-1 {
     width: 50vw;
     height: 50vh;
-    top: 8%;
-    left: -5%;
+    top: 4vh;
+    left: -11vw;
 }
 
 .main-2 {
-    width: 50vw;
-    height: 50vh;
-    top: 8%;
-    left: -5%;
+    width: 25vw;
+    height: 25vh;
+    top: -5vh;
+    left: 25vw;
 }
 
 .main-3 {
-    width: 50vw;
-    height: 50vh;
-    top: 8%;
-    left: -5%;
+    width: 28vw;
+    height: 28vh;
+    top: 8vh;
+    left: 44vw;
 }
 
 .main-4 {
-    width: 50vw;
-    height: 50vh;
-    top: 8%;
-    left: -5%;
+    width: 35vw;
+    height: 35vh;
+    top: 3vh;
+    left: 70vw;
 }
 
 .main-5 {
     width: 50vw;
     height: 50vh;
-    top: 8%;
-    left: -5%;
+    top: 55vh;
+    left:65vw;
 }
 
 .main-6 {
-    width: 50vw;
-    height: 50vh;
-    top: 8%;
-    left: -5%;
+    width: 22vw;
+    height: 22vh;
+    top: 45vh;
+    left: 60vw;
+}
+.main-7 {
+    width: 20vw;
+    height: 20vh;
+    top: 73vh;
+    left: 48vw;
+}
+.main-8 {
+    width: 10vw;
+    height: 10vh;
+    top: 78vh;
+    left: 40vw;
+}
+.main-9 {
+    width: 32vw;
+    height: 32vh;
+    top: 55vh;
+    left: 10vw;
+}
+.main-10 {
+    width: 40vw;
+    height: 40vh;
+    top: 60vh;
+    left: -20vw;
+}
+.main-11 {
+    width: 10vw;
+    height: 10vh;
+    top: 40vh;
+    left: 32vw;
 }
