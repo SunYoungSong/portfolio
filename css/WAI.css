@@ -2,6 +2,7 @@
 .section2{
     width: 100vw;
     height: 100vh;
+    background-color: #F6EBF7;
 }
 .link{
     width: 100vw;
@@ -49,4 +50,23 @@
     font-family:'RixYeoljeongdo_Regular' ;
     margin-left: 30px;
     
+}
+.me{
+    width:368px;
+    height: 465px;
+    top: 20vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+.right{
+    width: 70vw;
+    height: 70vh;
+    right: -15vw;
+    top: 15vh;
+}
+.left{
+    width: 100vw;
+    height: 85vh;
+    left: -35vw;
+    top: 8vh;
 }
