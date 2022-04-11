@@ -1,27 +1,29 @@
 /* WHO AM I _PAGE  */
-.section2{
+.section2 {
     width: 100vw;
     height: 100vh;
     background-color: #F6EBF7;
 }
-.link{
+
+.link {
     width: 100vw;
     height: 6vh;
-    background-color:#F7BABF ;
+    background-color: #F7BABF;
 }
-.surch{
+
+.surch {
     width: 60vw;
     height: 4vh;
     background-color: white;
     border-radius: 20px;
-    text-align:start;
+    text-align: start;
     line-height: 4vh;
     border: 10px;
     top: 1vh;
     left: 5vw;
 }
 
-.linkBt{
+.linkBt {
     width: 3vw;
     height: 4vh;
     top: 1vh;
@@ -32,41 +34,121 @@
     font-weight: bold;
     font-size: 2rem;
 }
-.heart{
+
+.heart {
     width: 35vw;
     height: 6vh;
     /* border: 1px solid black; */
     top: 0.5vh;
     left: 65vw;
-    display:grid;
-    grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
-.heart>img{
+
+.heart>img {
     width: 80%;
     height: 80%;
 }
-.linktext{
+
+.linktext {
     font-size: 1.5rem;
-    font-family:'RixYeoljeongdo_Regular' ;
+    font-family: 'RixYeoljeongdo_Regular';
     margin-left: 30px;
-    
+
 }
-.me{
-    width:368px;
+
+.me {
+    width: 368px;
     height: 465px;
     top: 20vh;
     left: 50vw;
     transform: translateX(-50%);
 }
-.right{
+
+.right {
     width: 70vw;
     height: 70vh;
     right: -15vw;
     top: 15vh;
 }
-.left{
+
+.left {
     width: 100vw;
     height: 85vh;
     left: -35vw;
     top: 8vh;
+}
+
+.textRight {
+    top: 30vh;
+    right: 7vw;
+    text-align: right;
+}
+
+.textRight>p {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-family: supersize-bk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.textRight>h1 {
+    font-size: 1.5rem;
+    font-family: 'KoPubDotumMedium';
+    font-weight: normal;
+    line-height: 4vh;
+}
+
+.textLeft {
+    top: 20vh;
+    left: 4vw;
+    text-align: left;
+}
+
+.textLeft>p {
+    margin-left: -3vw;
+    font-size: 3.2rem;
+    margin-bottom: 40px;
+    font-family: supersize-bk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.textLeft>h1 {
+    font-size: 1.5rem;
+    font-family: 'KoPubDotumMedium';
+    font-weight: normal;
+    line-height: 4vh;
+
+}
+
+.license {
+    top: 60vh;
+    left: 43vw;
+    font-family: 'DungGeunMo';
+    font-size: 2rem;
+    line-height: 5vh;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+}
+
+.deco1{
+    top: 10vh;
+    left: 10vw;
+}
+.deco2{
+    top: 10vh;
+    left: -10vw;
+}
+.deco3{
+    top: 50vh;
+    left: -15vw;
+}
+.deco4{
+    top: 65vh;
+    left: 15vw;
 }

@@ -18,7 +18,8 @@
         .p-a {
             position: absolute;
         }
-        .p-f{
+
+        .p-f {
             position: fixed;
         }
 
@@ -57,6 +58,14 @@
             font-weight: normal;
             font-style: normal;
         }
+
+        @font-face {
+            font-family: 'KoPubDotumMedium';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+  
     </style>
 
 
@@ -82,29 +91,89 @@
     </div>
     <div class="section2 p-r">
         <div class="link p-r">
-            <div class="surch p-a">  <p class="linktext">www.songsunyoung-Portfolio.com</p></div>
-           
+            <div class="surch p-a">
+                <p class="linktext">www.songsunyoung-Portfolio.com</p>
+            </div>
+
             <button class=" linkBt p-a">X</button>
             <div class="heart p-a">
-                    <img  src="/img/wai/Asset 10.svg" alt="하트">
-                    <img  src="/img/wai/Asset 1.svg" alt="하트">
-                    <img  src="/img/wai/Asset 2.svg" alt="하트">
-                    <img  src="/img/wai/Asset 3.svg" alt="하트">
-                    <img  src="/img/wai/Asset 4.svg" alt="하트">
-                    <img  src="/img/wai/Asset 5.svg" alt="하트">
-                    <img  src="/img/wai/Asset 6.svg" alt="하트">
-                    <img  src="/img/wai/Asset 7.svg" alt="하트">
-                    <img  src="/img/wai/Asset 8.svg" alt="하트">
-                    <img  src="/img/wai/Asset 9.svg" alt="하트">
+                <img src="/img/wai/Asset 10.svg" alt="하트">
+                <img src="/img/wai/Asset 1.svg" alt="하트">
+                <img src="/img/wai/Asset 2.svg" alt="하트">
+                <img src="/img/wai/Asset 3.svg" alt="하트">
+                <img src="/img/wai/Asset 4.svg" alt="하트">
+                <img src="/img/wai/Asset 5.svg" alt="하트">
+                <img src="/img/wai/Asset 6.svg" alt="하트">
+                <img src="/img/wai/Asset 7.svg" alt="하트">
+                <img src="/img/wai/Asset 8.svg" alt="하트">
+                <img src="/img/wai/Asset 9.svg" alt="하트">
             </div>
-        <img src="/img/SVG/취업사진　송선영.jpg" alt="증명사진" class="me p-a">
-        <img src="/img/SVG/Asset 1.svg" alt="오른쪽" class="left p-a">
-        <img src="/img/SVG/Asset 2.svg" alt="왼쪽" class="right p-a">
-        
+            <img src="/img/SVG/취업사진　송선영.jpg" alt="증명사진" class="me p-a">
+            <img src="/img/SVG/Asset 1.svg" alt="오른쪽" class="left p-a">
+            <img src="/img/SVG/Asset 2.svg" alt="왼쪽" class="right p-a">
+            <div class="textRight p-a">
+                <p>Im “ Web publisher ”</p>
+                <h1>안녕하세요 웹퍼블리셔 송선영입니다 :) <br>
+                    저는 독특한 저만의 색상을<br>
+                    UX & UI 위에 표현하는 웹 예술가 입니다.<br>
+                    <br>
+                    여러분야의 컨셉을 활용하여 <br>
+                    저만의 것으로 재해석해서 표현하는 것이 <br>
+                    저의 특징입니다. <br>
+                    <br>
+                    다양한 아이디어들로 매번 새롭게 <br>
+                    도전하는 모습을 보여드리고 싶어요 :)<br>
+
+                </h1>
+            </div>
+            <div class="textLeft p-a">
+                <p>“ 저는 이런 인재입니다 :) ”</p>
+                <h1>●항상　열린마음으로　언제든지<br>
+                    배울　준비가　되어있는　인재<br>
+                    <br>
+                    ●열정과　도전적인　정신으로　<br>
+                    무한한　발전가능성을　보여주는　인재<br>
+                    <br>
+                    ●활발한　성격과　센스있는　행동으로<br>
+                    언제든　회사의　분위기를　ＵＰ시켜줄　인재<br>
+                    <br>
+                    <br>
+                    ●그런　인재로　＂송선영＂　어떠세요？
+
+                </h1>
+            </div>
+            <div class="license p-a">
+                <p>Photoshop</p>
+                <p>Illustrator</p>
+                <p>Xd</p>
+                <p>Css</p>
+                <p>Html</p>
+                <p>Js * Jqury</p>
+                <p>GitHub</p>
+
+            </div>
+
+            <img src="/img/SVG/Asset 3.svg" alt="" class="pic p-a deco1">
+            <img src="/img/SVG/Asset 4.svg" alt="" class="pic p-a deco2">
+            <img src="/img/SVG/Asset 5.svg" alt="" class="pic p-a deco3">
+            <img src="/img/SVG/Asset 6.svg" alt="" class="pic p-a deco4">
+
         </div>
 
     </div>
 
 </body>
 
+<script>
+
+    // font script
+    (function(d) {
+      var config = {
+        kitId: 'nuu5zsz',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
 </html>
