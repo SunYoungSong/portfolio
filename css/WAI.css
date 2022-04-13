@@ -81,7 +81,7 @@
 
 .textRight {
     top: 30vh;
-    right: 7vw;
+    right: 5vw;
     text-align: right;
 }
 
@@ -94,6 +94,7 @@
 }
 
 .textRight>h1 {
+    margin-right: 50px;
     font-size: 1.5rem;
     font-family: 'KoPubDotumMedium';
     font-weight: normal;
