@@ -9,6 +9,7 @@
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/WAI.css">
+    <link rel="stylesheet" href="css/animation.css">
     <style>
         /* 공통구간 - 선택  */
         .p-r {
@@ -29,12 +30,8 @@
             font-weight: bold;
             font-style: italic;
         }
-
-        .animateUp {
-            animation: up 1s ease-in-out alternate infinite;
-        }
-        .animateNone{
-            animation: none;
+        .hidden{
+            display: none;
         }
 
         /* -----plus font----- */
@@ -79,23 +76,24 @@
 
 <body>
     <div class="section1 p-r">
-        <img class="main-c p-a" src="/img/main-c.svg" alt="main-캐릭터">
-        <img class="main-1 p-a" src="/img/1.svg" alt="후아유젤리">
+        <img class="main-c p-a tongtong" src="/img/main-c.svg" alt="main-캐릭터">
+        <div class="shadow p-a tongtong2"></div>
+        <img class="main-1 p-a wiggle" src="/img/1.svg" alt="후아유젤리">
         <img class="main-2 p-a" src="/img/2.svg" alt="연보라젤리">
         <img class="main-3 p-a" src="/img/3.svg" alt="연두콩젤리">
         <img class="main-4 p-a" src="/img/4.svg" alt="진달래젤리">
-        <img class="main-5 p-a" src="/img/5.svg" alt="워킹젤리">
+        <img class="main-5 p-a wiggle2" src="/img/5.svg" alt="워킹젤리">
         <img class="main-6 p-a" src="/img/6.svg" alt="핫핑크젤리">
         <img class="main-7 p-a" src="/img/7.svg" alt="라임젤리">
         <img class="main-8 p-a" src="/img/8.svg" alt="하늘색젤리">
-        <img class="main-9 p-a" src="/img/9.svg" alt="이티시젤리">
+        <img class="main-9 p-a wiggle3" src="/img/9.svg" alt="이티시젤리">
         <img class="main-10 p-a" src="/img/10.svg" alt="유치원노랑젤리">
         <img class="main-11 p-a" src="/img/11.svg" alt="퍼플젤리">
         <p class="wai p-a main-f ">WHO AM I</p>
         <p class="work p-a main-f ">WORK</p>
         <p class="etc p-a main-f ">ETC</p>
     </div>
-    <div class="section2 p-r">
+    <div class="section2 p-r ">
         <div class="link p-r">
             <div class="surch p-a">
                 <p class="linktext">www.songsunyoung-Portfolio.com</p>
@@ -159,13 +157,13 @@
 
             </div>
             <div class="percentBox p-a">
-                <div class="percent animateNone"></div>
-                <div class="percent animateNone"></div>
-                <div class="percent animateNone"></div>
-                <div class="percent animateNone"></div>
-                <div class="percent animateNone"></div>
-                <div class="percent animateNone"></div>
-                <div class="percent animateNone"></div>
+                <div class="percent animateUp"></div>
+                <div class="percent"></div>
+                <div class="percent"></div>
+                <div class="percent"></div>
+                <div class="percent"></div>
+                <div class="percent"></div>
+                <div class="percent"></div>
             </div>
 
 

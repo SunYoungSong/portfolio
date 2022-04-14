@@ -34,19 +34,4 @@
 // console.log(sectionTwo);
 
 
-
-
-// contect : 마우스 오버시 해당되는 구간에 애니메이션 효과를 넣어준다.
- const license = document.querySelectorAll('.license>p');
- const percent = document.querySelectorAll('.percentBox>div');
- console.log(license);
- console.log(percent);
-
-for(let i =0; i<license.length;i++){
-    license[i].addEventListener('mouseover',function(){
-        percent[i].classList.replace('animateNone','animateUp')
-    });
-    license[i].addEventListener('mouseout',function(){
-        percent[i].classList.replace('animateUp','animateNone')
-    });
-}
+// 

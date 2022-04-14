@@ -1,0 +1,93 @@
+/* section one - wiggle */
+
+
+@keyframes wiggle {
+    0%{
+      
+        transform:  rotate(60deg);
+    }
+    
+    100%{
+      
+        transform:rotate(220deg);
+    }
+}
+@keyframes wiggle2 {
+    0%{
+        transform:  rotate(60deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes wiggle3 {
+    0%{
+        transform:  rotate(-60deg);
+    }
+    50%{
+        transform:rotate(-180deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes tongtong {
+    0%{
+        top: 49%;
+    }
+    50%{
+        top:50%;
+    }
+    100%{
+        top: 49%;
+    }
+}
+@keyframes tongtong2 {
+    0%{
+        top: 70%;
+    }
+    50%{
+        top:71%;
+        opacity: 0.4;
+    }
+    100%{
+        top: 70%;
+    }
+}
+
+.wiggle{
+    animation: wiggle1 5s alternate infinite;
+}
+.wiggle2{
+    animation: wiggle2 15s ease-in-out alternate-reverse infinite;
+}
+.wiggle3{
+    animation: wiggle3 30s ease-in-out alternate-reverse infinite;
+}
+.tongtong{
+    animation: tongtong 2s ease-in-out alternate-reverse infinite;
+}
+.tongtong2{
+    animation: tongtong2 2s ease-in-out alternate-reverse infinite;
+}
+.animateNone{
+    animation: none;
+}
+
+
+/* section Two  */
+@keyframes up {
+    0%{
+        width: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        width: 100%;
+        opacity: 1;
+    }
+}

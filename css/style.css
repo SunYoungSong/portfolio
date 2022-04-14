@@ -16,13 +16,22 @@
 }
 
 .main-c {
-    width: 40vw;
-    height: 40vh;
+    width: 40%;
+    height: 40%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.shadow{
+    width: 250px;
+    height: 40px;
+    opacity: 0.2;
+    background-color: #272626;
+    border-radius: 50%;
+    top: 70%;
+    left: 50%;
+    transform:translateX(-48%);
+}
 .main-1 {
     width: 50vw;
     height: 50vh;
@@ -103,19 +112,22 @@
 
 /* ----------------------------set txt */
 .wai {
-    text-shadow: 7px 7px 0px white;
+    color: #fff;
+    text-shadow: 7px 7px 0px #272626;
     top: 20vh;
     left: 4vw;
 }
 
 .work {
-    text-shadow: 7px 7px 0px white;
+    color: #fff;
+    text-shadow: 7px 7px 0px #005eea;
     top: 73vh;
     left: 85vw;
 }
 
 .etc {
-    text-shadow: 7px 7px 0px white;
+    color: #fff;
+    text-shadow: 7px 7px 0px #ea9800;
     top: 65vh;
     left: 22vw;
 }
