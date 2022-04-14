@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sunyoung is Portfolio</title>
-    <script src="js/script.js"></script>
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/WAI.css">
     <style>
@@ -28,6 +28,13 @@
             font-family: 'RixYeoljeongdo_Regular';
             font-weight: bold;
             font-style: italic;
+        }
+
+        .animateUp {
+            animation: up 1s ease-in-out alternate infinite;
+        }
+        .animateNone{
+            animation: none;
         }
 
         /* -----plus font----- */
@@ -65,7 +72,6 @@
             font-weight: normal;
             font-style: normal;
         }
-  
     </style>
 
 
@@ -152,6 +158,16 @@
                 <p>GitHub</p>
 
             </div>
+            <div class="percentBox p-a">
+                <div class="percent animateNone"></div>
+                <div class="percent animateNone"></div>
+                <div class="percent animateNone"></div>
+                <div class="percent animateNone"></div>
+                <div class="percent animateNone"></div>
+                <div class="percent animateNone"></div>
+                <div class="percent animateNone"></div>
+            </div>
+
 
             <img src="/img/SVG/Asset 3.svg" alt="" class="pic p-a deco1">
             <img src="/img/SVG/Asset 4.svg" alt="" class="pic p-a deco2">
@@ -163,17 +179,6 @@
     </div>
 
 </body>
+<script src="js/script.js"></script>
 
-<script>
-
-    // font script
-    (function(d) {
-      var config = {
-        kitId: 'nuu5zsz',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script>
 </html>
