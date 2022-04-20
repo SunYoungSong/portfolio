@@ -34,4 +34,8 @@
 // console.log(sectionTwo);
 
 
-// 
+// main - mouse over
+ const mainOne = document.querySelector(".main-1");
+ const mainTwo = document.querySelector(".main-5");
+ const mainThree = document.querySelector(".main-9");
+

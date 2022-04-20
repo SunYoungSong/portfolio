@@ -4,12 +4,12 @@
 @keyframes wiggle {
     0%{
       
-        transform:  rotate(60deg);
+        transform: rotate(0deg);
     }
     
     100%{
       
-        transform:rotate(220deg);
+        transform:rotate(180deg);
     }
 }
 @keyframes wiggle2 {
@@ -59,13 +59,13 @@
 }
 
 .wiggle{
-    animation: wiggle1 5s alternate infinite;
+    animation: wiggle 15s infinite;
 }
 .wiggle2{
-    animation: wiggle2 15s ease-in-out alternate-reverse infinite;
+    animation: wiggle2 20s alternate-reverse  infinite;
 }
 .wiggle3{
-    animation: wiggle3 30s ease-in-out alternate-reverse infinite;
+    animation: wiggle3 20s alternate-reverse  infinite;
 }
 .tongtong{
     animation: tongtong 2s ease-in-out alternate-reverse infinite;
