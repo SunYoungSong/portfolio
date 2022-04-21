@@ -2,38 +2,22 @@
 
 
 @keyframes wiggle {
-    0%{
+   
+    100%{
       
-        transform: rotate(0deg);
+        transform:rotate(360deg);
     }
+}
+
+@keyframes wiggle2 {
+    
     
     100%{
       
-        transform:rotate(180deg);
+        transform:rotate(-360deg);
     }
 }
-@keyframes wiggle2 {
-    0%{
-        transform:  rotate(60deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-@keyframes wiggle3 {
-    0%{
-        transform:  rotate(-60deg);
-    }
-    50%{
-        transform:rotate(-180deg);
-    }
-    100%{
-        transform: rotate(-360deg);
-    }
-}
+
 @keyframes tongtong {
     0%{
         top: 49%;
@@ -59,14 +43,13 @@
 }
 
 .wiggle{
-    animation: wiggle 15s infinite;
+    animation: wiggle 8s infinite;
 }
 .wiggle2{
-    animation: wiggle2 20s alternate-reverse  infinite;
+    animation: wiggle2 4s infinite;
+
 }
-.wiggle3{
-    animation: wiggle3 20s alternate-reverse  infinite;
-}
+
 .tongtong{
     animation: tongtong 2s ease-in-out alternate-reverse infinite;
 }

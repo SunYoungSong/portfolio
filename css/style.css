@@ -108,6 +108,19 @@
     top: 40vh;
     left: 32vw;
 }
+.flower{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+}
+.f-1{top: 1.2vh; left: 0vw;}
+.f-2{width: 12%; height: 12%; top: 23vh; left: 30vw;}
+.f-3{width: 8%; height: 8%; top: 13vh; left: 42vw;}
+.f-4{width: 14%; height: 14%;top: 26vh; left: 65vw;}
+.f-5{top: 70vh; left: 65vw;}
+.f-6{width: 7%; height: 7%; top: 41vh; left: 82vw;}
+.f-7{width: 12%; height: 12%; top: 60vh; left: 6vw;}
+.f-8{top: 84vh; left: 33vw;}
 
 
 /* ----------------------------set txt */
