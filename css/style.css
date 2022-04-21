@@ -37,6 +37,16 @@
     height: 50vh;
     top: 4vh;
     left: -11vw;
+    transition: 1.5s;
+}
+.main-1:hover{
+    transform: scale(1.1);
+}
+.main-5:hover{
+    transform: scale(1.1);
+}
+.main-9:hover{
+    transform: scale(1.1);
 }
 
 .main-2 {
@@ -65,6 +75,8 @@
     height: 50vh;
     top: 55vh;
     left: 65vw;
+    transition: 1.5s;
+
 }
 
 .main-6 {
@@ -93,6 +105,8 @@
     height: 32vh;
     top: 55vh;
     left: 10vw;
+    transition: 1.5s;
+
 }
 
 .main-10 {
@@ -129,6 +143,8 @@
     text-shadow: 7px 7px 0px #272626;
     top: 20vh;
     left: 4vw;
+    transition: 2s;
+
 }
 
 .work {
@@ -136,6 +152,8 @@
     text-shadow: 7px 7px 0px #005eea;
     top: 73vh;
     left: 85vw;
+    transition: 2s;
+
 }
 
 .etc {
@@ -143,4 +161,6 @@
     text-shadow: 7px 7px 0px #ea9800;
     top: 65vh;
     left: 22vw;
+    transition: 2s;
+
 }

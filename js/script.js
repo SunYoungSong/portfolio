@@ -35,7 +35,25 @@
 
 
 // main - mouse over
- const mainOne = document.querySelector(".main-1");
- const mainTwo = document.querySelector(".main-5");
- const mainThree = document.querySelector(".main-9");
+//  const mainOne = document.querySelector(".main-1");
+//  const mainTwo = document.querySelector(".main-5");
+//  const mainThree = document.querySelector(".main-9");
+// console.log("mainOne");
+
+
+// main- font change
+const wai = document.querySelector(".wai");
+const work = document.querySelector(".work");
+const etc = document.querySelector(".etc");
+console.log("wai");
+
+neon = function(){
+    classList.replace('neonNone','neon');
+}
+neonNone = function(){
+    classList.replace('neon','neonNone');
+}
+// wai.addEventListener('click',function(){
+// wai.classList.replace('neonNone','neon');
+// });
 

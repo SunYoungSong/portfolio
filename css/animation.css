@@ -2,75 +2,107 @@
 
 
 @keyframes wiggle {
-   
-    100%{
-      
-        transform:rotate(360deg);
+
+    100% {
+
+        transform: rotate(360deg);
     }
 }
 
 @keyframes wiggle2 {
-    
-    
-    100%{
-      
-        transform:rotate(-360deg);
+
+
+    100% {
+
+        transform: rotate(-360deg);
     }
 }
 
 @keyframes tongtong {
-    0%{
+    0% {
         top: 49%;
     }
-    50%{
-        top:50%;
+
+    50% {
+        top: 50%;
     }
-    100%{
+
+    100% {
         top: 49%;
     }
 }
+
 @keyframes tongtong2 {
-    0%{
+    0% {
         top: 70%;
     }
-    50%{
-        top:71%;
+
+    50% {
+        top: 71%;
         opacity: 0.4;
     }
-    100%{
+
+    100% {
         top: 70%;
     }
 }
 
-.wiggle{
+.wiggle {
     animation: wiggle 8s infinite;
 }
-.wiggle2{
+
+.wiggle2 {
     animation: wiggle2 4s infinite;
 
 }
 
-.tongtong{
+.tongtong {
     animation: tongtong 2s ease-in-out alternate-reverse infinite;
 }
-.tongtong2{
+
+.tongtong2 {
     animation: tongtong2 2s ease-in-out alternate-reverse infinite;
 }
-.animateNone{
+
+.animateNone {
     animation: none;
 }
 
 
 /* section Two  */
 @keyframes up {
-    0%{
+    0% {
         width: 0;
     }
-    50%{
+
+    50% {
         opacity: 0.5;
     }
-    100%{
+
+    100% {
         width: 100%;
         opacity: 1;
+    }
+}
+
+.neon{
+    animation: neon 2s ease-in-out infinite;
+}
+.neonNone{
+    animation: none;
+}
+
+.sizeUp {
+    transform: scale(1.2);
+}
+
+@keyframes neon {
+    to {
+        text-shadow: 7px 7px 0px #272626;
+
+    }
+    from{
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
     }
 }
