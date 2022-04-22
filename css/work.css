@@ -1,0 +1,63 @@
+/* about work */
+
+.section3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.link2 {
+    width: 100vw;
+    height: 6vh;
+    background-color: #FCEB97;
+}
+
+.linkBt2 {
+    width: 3vw;
+    height: 4vh;
+    top: 1vh;
+    left: 1vw;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.section3Page {
+    width: 100vw;
+    height: 100vh;
+    top: 0vh;
+}
+
+.leftPage {
+    margin-top: 6vh;
+    width: 50vw;
+    height: 70vh;
+    background-color: white;
+    border:3px solid whitesmoke;
+    float: left;
+}
+
+.rightPage {
+    margin-top: 6vh;
+    width: 50vw;
+    height: 70vh;
+    border:3px solid whitesmoke;
+    background-color: white;
+    float: left;
+}
+
+.etcPage {
+    bottom: 0;
+    width: 100vw;
+    height: 30vh;
+    background-color: white;
+    border:4px solid whitesmoke;
+}
+.citypopview{
+    width: 50%;
+    height: 50%;
+}
