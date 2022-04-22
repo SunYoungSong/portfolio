@@ -4,9 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
 
 .section1 {
     width: 100vw;
@@ -22,7 +24,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.shadow{
+
+.shadow {
     width: 250px;
     height: 40px;
     opacity: 0.2;
@@ -30,8 +33,9 @@
     border-radius: 50%;
     top: 70%;
     left: 50%;
-    transform:translateX(-48%);
+    transform: translateX(-48%);
 }
+
 .main-1 {
     width: 50vw;
     height: 50vh;
@@ -39,13 +43,16 @@
     left: -11vw;
     transition: 1.5s;
 }
-.main-1:hover{
+
+.main-1:hover {
     transform: scale(1.1);
 }
-.main-5:hover{
+
+.main-5:hover {
     transform: scale(1.1);
 }
-.main-9:hover{
+
+.main-9:hover {
     transform: scale(1.1);
 }
 
@@ -122,19 +129,62 @@
     top: 40vh;
     left: 32vw;
 }
-.flower{
+
+.flower {
     width: 10%;
     height: 10%;
     position: absolute;
 }
-.f-1{top: 1.2vh; left: 0vw;}
-.f-2{width: 12%; height: 12%; top: 23vh; left: 30vw;}
-.f-3{width: 8%; height: 8%; top: 13vh; left: 42vw;}
-.f-4{width: 14%; height: 14%;top: 26vh; left: 65vw;}
-.f-5{top: 70vh; left: 65vw;}
-.f-6{width: 7%; height: 7%; top: 41vh; left: 82vw;}
-.f-7{width: 12%; height: 12%; top: 60vh; left: 6vw;}
-.f-8{top: 84vh; left: 33vw;}
+
+.f-1 {
+    top: 1.2vh;
+    left: 0vw;
+}
+
+.f-2 {
+    width: 12%;
+    height: 12%;
+    top: 23vh;
+    left: 30vw;
+}
+
+.f-3 {
+    width: 8%;
+    height: 8%;
+    top: 13vh;
+    left: 42vw;
+}
+
+.f-4 {
+    width: 14%;
+    height: 14%;
+    top: 26vh;
+    left: 65vw;
+}
+
+.f-5 {
+    top: 70vh;
+    left: 65vw;
+}
+
+.f-6 {
+    width: 7%;
+    height: 7%;
+    top: 41vh;
+    left: 82vw;
+}
+
+.f-7 {
+    width: 12%;
+    height: 12%;
+    top: 60vh;
+    left: 6vw;
+}
+
+.f-8 {
+    top: 84vh;
+    left: 33vw;
+}
 
 
 /* ----------------------------set txt */
@@ -163,4 +213,26 @@
     left: 22vw;
     transition: 2s;
 
+}
+
+
+/* -------말풍선 */
+.bubble {
+    width: 450px;
+    height: 450px;
+    top: 14vh;
+    left: 17vw;
+    z-index: 1;
+    transition: 1.5s;
+}
+
+.bubble>p {
+    font-family: 'DungGeunMo';
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 2s;
 }

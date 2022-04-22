@@ -86,14 +86,15 @@
 }
 
 .neon{
-    animation: neon 2s ease-in-out infinite;
+    animation: neon 2s ease-in-out ;
 }
-.neonNone{
-    animation: none;
-}
+
 
 .sizeUp {
     transform: scale(1.2);
+}
+.textOn{
+    animation: textOn 2s ease-in-out ;
 }
 
 @keyframes neon {
@@ -102,7 +103,72 @@
 
     }
     from{
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
-      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f5eece,
+      0 0 35px #f5eece, 0 0 40px #f5eece, 0 0 50px #f5eece, 0 0 75px #f5eece;
     }
+}
+@keyframes textOn {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.show{
+    animation: show 1s ease-in-out ;
+  
+}
+@keyframes show {
+    0%{
+        opacity: 0.2;
+        width: 0%;
+        
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+       
+    }
+}
+.textShaking{
+    animation: textShaking 2s ease-in-out ;
+}
+@keyframes textShaking {
+    0%{
+        transform:scale(0.2);
+    }
+    35%{
+        transform:scale(1.3);
+    }
+    70%{
+        transform:scale(0.7);
+
+    }
+    100%{
+        transform:scale(1);
+
+
+}
+}
+.picShaking{
+    animation: picShaking 1.5s ease-in-out infinite;
+}
+@keyframes picShaking {
+    0%{
+        transform:rotate(10deg);
+    }
+    50%{
+        transform:rotate(-10deg);
+
+    }
+    100%{
+     transform:rotate(10deg);
+
+}
 }

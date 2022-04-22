@@ -3,6 +3,7 @@
     width: 100vw;
     height: 100vh;
     background-color: #F6EBF7;
+    
 }
 
 .link {
@@ -33,6 +34,7 @@
     border-radius: 20px;
     font-weight: bold;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .heart {
@@ -159,57 +161,62 @@
 }
 
 .percentBox {
-    width: auto;
+    width: 150px;
     height: 450px;
     /* border: 1px solid black; */
-    top: 60.5vh;
-    left: 51vw;
+    top:60.5vh;
+    left: 5vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around;  
 }
 
-.percent {
+.pc{
     width: 150px;
     height: 30px;
     border-radius: 50px;
-    justify-items: left;
-    opacity: 0.3;
-   
+    transition: 1.5s;
 
 }
 
-.percent:nth-child(1) {
-    width: 140px;
+.percent-1 {
+    margin-left: -5px;
+    width: 150px;
     background-color: #EA003D;
 }
 
-.percent:nth-child(2) {
+.percent-2 {
+    margin-left: -5px;
     width: 140px;
     background-color: #ADBEED;
 }
 
-.percent:nth-child(3) {
+.percent-3 {
+    margin-left: -5px;
     width: 120px;
     background-color: #A6D9E5;
 }
 
-.percent:nth-child(4) {
+.percent-4 {
+    margin-left: -5px;
     width: 130px;
     background-color: #FFF9DA;
 }
 
-.percent:nth-child(5) {
-    width: 110px;
+.percent-5 {
+    margin-left: -5px;
+    width: 150px;
     background-color: #BEE68F;
 }
 
-.percent:nth-child(6) {
+.percent-6 {
+    margin-left: -5px;
     width: 120px;
     background-color: #F5CC86;
 }
 
-.percent:nth-child(7) {
+.percent-7 {
+    margin-left: -5px;
     width: 120px;
     background-color: #F9A37D;
 }
