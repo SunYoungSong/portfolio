@@ -4,7 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -89,8 +90,8 @@ body{
 .main-6 {
     width: 22vw;
     height: 22vh;
-    top: 45vh;
-    left: 60vw;
+    top: 45%;
+    left: 65%;
 }
 
 .main-7 {
@@ -236,3 +237,5 @@ body{
     transform: translate(-50%, -50%);
     transition: 2s;
 }
+
+

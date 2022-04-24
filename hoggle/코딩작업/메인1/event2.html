@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>write on,</title>
+    <style>
+        @font-face {
+            font-family: dear-p;
+            src: url(font/DearMrPotter-Regular.otf);
+        }
+        @font-face {
+            font-family: kr-b;
+            src: url(font/BlackAndWhitePicture-Regular.ttf);
+        }
+
+        *{
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #contariner>img{
+            width: 100%;
+            height: 100%;
+            position:relative;     
+        }
+
+
+        .paper>img{
+            width:700px;
+            height: 900px;
+            top: 50px;
+            left: 50px;
+            animation: updown ease-in-out 2s infinite alternate;
+        } 
+        .tichet>img{
+            width: 500px;
+            height: 300px;    
+            transform: rotate(2.5deg);
+            bottom: 30px;
+            left: 20%;
+            animation: wiggle ease-in-out 2s infinite alternate;
+        }
+        h1{
+            font-size: 5rem;
+            top: 25%;
+            right: 150px;
+            font-family: dear-p;
+
+        }
+
+        h1>strong{
+            font-size: 8rem;
+            font-weight: lighter;
+        }
+
+        h1>input{
+            width: 300px;
+            height: 100px;
+            font-family: dear-p;
+            font-size: 5rem;
+            border: none;
+            font-weight: bold;
+            background-color: inherit;
+            border-bottom: 2px solid black;
+        }
+        #container>.hoggle>a>img{
+            width: 80px;
+            height: 50px;
+            bottom:20px;
+            right: 20px;
+            cursor: pointer;
+            display: block;
+            opacity: 0.5;
+        }
+        #container>.hoggle>a>img:hover{
+            transform: scale(1.2);
+            opacity: 1;
+
+        }
+
+        .p-a{
+            position: absolute;
+        }
+
+        @keyframes wiggle{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(2deg);
+            }
+
+        }
+
+        @keyframes updown{
+            0%{
+                top: 50px;
+            }
+            100%{
+                top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="img/bg.png" alt="">
+        <div class="paper ">
+            <img class="p-a" src="img/letter.png" alt="편지">
+        </div>
+
+        <div class="tichet">
+             <img class="p-a" src="img/ticket.png" alt="티켓">
+        </div>
+
+        <h1 class="p-a">
+           <strong> Write down your name.</strong><br><br>
+            Dear Mr/Ms  <span>&nbsp;</span>   <input type="text">
+        </h1>
+        
+        <div class="hoggle"> <a href="/main.html"><img class=" p-a" src="img/logo.png" alt="홈바로가기">  </a></img> </div>
+    </img>
+    </div>
+</body>
+</html>

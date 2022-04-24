@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Hogwart,</title>
+    <style>
+        @font-face {
+            font-family: dear-p;
+            src: url(font/DearMrPotter-Regular.otf);
+        }
+        @font-face {
+            font-family: kr-b;
+            src: url(font/BlackAndWhitePicture-Regular.ttf);
+        }
+
+        *{
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #container>img{
+           
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+     
+        #container .letter>img{
+           width: 600px;
+           height: 500px;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+        #container button>a>img{
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 360px;
+            left: 430px;
+            animation: popdown2 ease-in-out forwards 2s infinite  alternate ;
+        
+        }
+        #container button>a>img:hover{
+            transform: scale(1.2);
+        }
+
+        #container .letter>img {
+            animation: popdown ease-in-out forwards 2s infinite alternate ;
+                       
+        }
+       
+
+        h1{
+            font-size: 5rem;
+            top: 250px;
+            right: 50px;
+            font-family: dear-p;
+           
+        }
+
+        span {
+            display: inline-block;
+            text-shadow: 0 0 0 whitesmoke;
+            opacity: 0;
+            animation: smoky 4s 1s alternate forwards;
+            }
+
+            span:nth-child(even){
+            animation-name: smoky-mirror;
+            }
+
+        
+
+        #container>.hoggle>a>img{
+            width: 80px;
+            height: 50px;
+            bottom:20px;
+            right: 20px;
+            cursor: pointer;
+            opacity: 0.5;
+        }
+        #container>.hoggle>a>img:hover{
+            transform: scale(1.2);
+            opacity: 1;
+
+        }
+
+        .p-a{
+            position:absolute;
+        }
+/* 애니메이션 구간 */
+        @keyframes popdown {
+            0% { top: 200px;
+                 
+            
+            }
+            100% {
+                top: 250px;
+                
+                
+            }
+        }
+            @keyframes popdown2 {
+            0% { top: 360px;
+                
+            
+            }
+            100% {
+                top: 410px;
+               
+                
+            }
+    
+}
+/* 글자효과 */
+
+@keyframes smoky { 
+     
+                    100% {
+                        opacity: 1;
+                        text-shadow: 0 0 40px whitesmoke;
+                    }
+                    from {
+                        transform:
+                        translate3d(12rem,-8rem,0)
+                        rotate(-40deg)
+                        skewX(70deg)
+                        scale(1.5);
+                        text-shadow: 0 0 20px whitesmoke;
+                        opacity: 0;
+                    }
+                }
+
+@keyframes smoky-mirror {
+   
+                100% {
+                    opacity: 1;
+                    text-shadow: 0 0 40px whitesmoke; }
+                from {
+                    transform:
+                    translate3d(18rem,-8rem,0)
+                    rotate(-40deg) 
+                    skewX(-70deg)
+                    scale(2);
+                    text-shadow: 0 0 20px whitesmoke;
+                    opacity: 0;
+                }
+             }
+
+/* @for $item from 1 through 21 {
+  span:nth-of-type(#{$item}){ 
+    animation-delay: #{(3 + ($item/10))}s; 
+  }
+}  */
+
+    </style>
+</head>
+<body>
+    <div id="container" >
+        <img src="img/bg.png" alt="배경">
+
+        <div class="letter">
+            <img src="img/box.png" alt="봉투">
+                <button><a href="event2.html"><img src="img/button.png" alt="실크도장"></a></button>
+            </img>
+        </div>
+
+        <h1 class="p-a">
+           
+            <span>H</span><span>i</span><span>,</span><span>&nbsp;</span> 
+            <span>M</span><span>u</span><span>g</span><span>g</span><span>l</span><span>e</span><br><br>
+            <span>D</span><span>o</span><span>n</span><span>'</span><span>t</span><span>&nbsp;</span> 
+            <span>y</span><span>o</span><span>u</span><span>&nbsp;</span> 
+            <span>w</span><span>a</span><span>n</span><span>t</span><span>&nbsp;</span> 
+            <span>t</span><span>o</span><span>&nbsp;</span>
+            <span>e</span><span>n</span><span>t</span><span>e</span><span>t</span><span>&nbsp;</span> 
+            <span>H</span><span>o</span><span>g</span><span>w</span><span>a</span><span>r</span><span>t</span><span>s</span><span>?</span> 
+
+        </h1>
+
+        <div class="hoggle"><a href="/main.html"> <img class="p-a" src="img/logo.png" alt="홈바로가기"> </a></img></div>
+         </img>
+    </div>
+</body>
+</html>

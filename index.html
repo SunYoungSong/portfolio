@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="css/work.css">
     <style>
         /* 공통구간 - 선택  */
+        *{
+            list-style: inherit;
+            margin: 0 auto;
+            text-decoration: none;
+
+        }
         .p-r {
             position: relative;
         }
@@ -71,6 +77,44 @@
             font-weight: normal;
             font-style: normal;
         }
+        @media (max-width: 1920px) {
+    .main-c{width: 30%; height: 30%;}
+    .main-1{width: 40vw; height: 40vh;}
+    .main-2{width: 15vw; height: 15vh;}
+    .main-3{width: 18vw; height: 18vh;}
+    .main-4{width: 25vw; height: 25vh;}
+    .main-5{width: 40vw; height: 40vh;}
+    .main-6{width: 12vw; height: 12vh;}
+    .main-7{width: 10vw; height: 10vh; top: 88vh;}
+    .main-8{width: 5vw; height: 5vh;}
+    .main-9{width: 22vw; height: 22vh;}
+    .main-10{width: 30vw; height: 30vh;}
+    .main-11{width: 5vw; height: 5vh;}
+    .f4{transform: scale(0.7); transform: rotate(-360deg);} 
+    .f7{top:50vh; transform: scale(0.7); transform: rotate(-360deg);}
+    .f1{transform: scale(0.7); transform: rotate(360deg);}
+    .f2{transform: scale(0.7); transform: rotate(360deg);}
+    .f3{transform: scale(0.7); transform: rotate(360deg);}
+    .f5{transform: scale(0.7); transform: rotate(360deg);}
+    .f6{transform: scale(0.7); transform: rotate(360deg);}
+    .etc{font-size: 4rem; left: 18vw; top:63vh;}
+    .wai{font-size: 4rem; left: 2vw; top:20vh;}
+    .work{font-size: 4rem; left: 80vw; top:70vh;}
+    .left{  width: 95vw; height: 75vh;}
+    .right{  width: 60vw; height: 65vh;}
+    .textLeft>p{font-size:2rem;}
+    .textLeft>h1{font-size:1.3rem;}
+    .textRight>p{font-size:2rem;}
+    .textRight>h1{font-size:1.3rem;}
+    .me{transform:translateX(-50%) scale(0.7);}
+    .license{font-size: 1.3rem;}
+    .pc{height: 15px;}
+    .percentBox{height: 430px; top:60vh}
+
+
+}
+
+
     </style>
 
 
@@ -111,7 +155,7 @@
         <p class="work p-a main-f ">WORK</p>
         <p class="etc p-a main-f ">ETC</p>
     </div>
-    <div class="section2 p-a ">
+    <div class="section2 p-a hidden">
         <div class="link p-r">
             <div class="surch p-a">
                 <p class="linktext">www.songsunyoung-Portfolio.com</p>
@@ -194,13 +238,12 @@
 
     </div>
 
-    <div class="section3 p-a ">
-        <div class="link2 p-r">
+    <div class="section3 hidden p-a  ">
+        <div class="link3 p-r">
             <div class="surch p-a">
                 <p class="linktext">www.songsunyoung-Portfolio.com</p>
             </div>
-
-            <button class=" linkBt2 p-a">X</button>
+            <button class="linkBtThree p-a">X</button>
             <div class="heart p-a">
                 <img src="/img/wai/Asset 10.svg" alt="하트">
                 <img src="/img/wai/Asset 1.svg" alt="하트">
@@ -214,14 +257,37 @@
                 <img src="/img/wai/Asset 9.svg" alt="하트">
             </div>
             <div class="section3Page p-r">
-                <div class="leftPage">
-                    <img class="citypopview" src="img/section3/SVG/Asset 4.svg" alt="citypop">
+                <div class="leftPage p-r">
+                    <img class="citypopview p-a" src="img/section3/모니터3.png" alt="citypop">
+                    <div class="citypop p-a">
+                        <img class="citypop1" src="img/section3/citypop1.PNG" alt="시티팝1">
+                        <img class="citypop2" src="img/section3/citypop2.PNG" alt="시티팝1">
+                        <img class="citypop3" src="img/section3/citypop3.PNG" alt="시티팝1">
+                        <img class="citypop4" src="img/section3/citypop4.PNG" alt="시티팝1">
+                        <img class="citypop5" src="img/section3/citypop5.PNG" alt="시티팝1">
+                    </div>
+                    <button class="citypopBt p-a">
+                        <a href="CITYPOP/index.html">CITYPOP _WORLD</a></button>
                 </div>
-                <div class="rightPage">
-
+                <div class="rightPage p-r">
+                    <button class="hoggleBt p-a">
+                        <a href="hoggle/코딩작업/메인1/event.html">HOGGLE</a></button>
+                    <img class="hoggleview p-a" src="img/section3/모니터3.png" alt="hoggle">
+                    <div class="hoggle p-a">
+                        <img class="hoggle1" src="img/section3/hoggle1.PNG" alt="hoggle1">
+                        <img class="hoggle2" src="img/section3/hoggle2.PNG" alt="hoggle1">
+                        <img class="hoggle3" src="img/section3/hoggle3.PNG" alt="hoggle1">
+                        <img class="hoggle4" src="img/section3/hoggle5.PNG" alt="hoggle1">
+                        <img class="hoggle5" src="img/section3/hoggle6.PNG" alt="hoggle1">
+                    </div>
                 </div>
-                <div class="etcPage p-a">
-
+                <div class="etcPage p-r">
+                    <div class="bgc p-a"></div>
+                   <div class="ai p-a"><a href="/woking/일러스트 첫작품영상.mp4"><img src="woking/Asset 1.png" alt="일러스트 작품"></a></div>
+                   <div class="ai2 p-a"><a href="/woking/창작아이콘_송선영-Recovered.gif"><img src="woking/창작아이콘_송선영.jpg" alt="아이콘 창작"></a></div>
+                    <div class="ps p-a"><a href="/woking/최종 완성 라인 copy.pdf"><img src="woking/수정 로고.png" alt="브랜드 창작"></a></div>
+                    <div class="olion p-a"><a href="/woking/오리온 최종/index.html"> <img src="woking/olion.png" alt="오리온팀플"></a></div>
+                    
                 </div>
             </div>
 

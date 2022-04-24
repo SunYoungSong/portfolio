@@ -96,3 +96,62 @@ me.addEventListener('click',function(){
 });
 
 
+// slide moniter
+// left citypop
+const leftPage = document.querySelector('.leftPage');
+const citypop = document.querySelector('.citypop');
+const citypopView = document.querySelector('.citypopview');
+const citypopImg = document.querySelectorAll('.citypop>img');
+console.log(leftPage);
+
+citypop.addEventListener('mouseover',function(){
+    let index = 0;
+    const timer = setInterval(function(){
+        if(index < citypopImg.length -1){
+            citypopImg[index].style.marginTop = '-405px';
+            index += 1;
+       }else{
+           index = 0;
+           citypopImg[index].style.marginTop = '0px'; 
+           for(let i = 0; i<citypopImg.length;i++){
+               citypopImg[i].style.marginTop='0px';
+    
+           }
+       }
+    }, 3000);
+});
+// right citypop
+const rightPage = document.querySelector('.rightPage');
+const hoggle = document.querySelector('.hoggle');
+const hoggleView = document.querySelector('.hoggleview');
+const hoggleImg = document.querySelectorAll('.hoggle>img');
+console.log(leftPage);
+
+hoggle.addEventListener('mouseover',function(){
+    let index = 0;
+    const timer = setInterval(function(){
+        if(index < hoggleImg.length -1){
+            hoggleImg[index].style.marginTop = '-405px';
+            index += 1;
+       }else{
+           index = 0;
+           hoggleImg[index].style.marginTop = '0px'; 
+           for(let i = 0; i<hoggleImg.length;i++){
+            hoggleImg[i].style.marginTop='0px';
+    
+           }
+       }
+    }, 3000);
+});
+
+
+//  section3 button
+const sectionBtThree = document.querySelector('.linkBtThree');
+const sectionThree = document.querySelector('.section3');
+console.log(sectionBtThree)
+work.addEventListener('click',function(){
+    sectionThree.classList.remove('hidden');
+});
+sectionBtThree.addEventListener('click',function(){
+    sectionThree.classList.add('hidden');
+});
