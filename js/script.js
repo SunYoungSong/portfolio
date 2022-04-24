@@ -155,3 +155,15 @@ work.addEventListener('click',function(){
 sectionBtThree.addEventListener('click',function(){
     sectionThree.classList.add('hidden');
 });
+// section4 button
+const sectionBtFour = document.querySelector('.linkBt4');
+const sectionfour = document.querySelector('.section4');
+console.log(sectionBtThree)
+etc.addEventListener('click',function(){
+    sectionfour.classList.remove('hidden');
+});
+sectionBtFour.addEventListener('click',function(){
+    sectionfour.classList.add('hidden');
+});
+const soso = document.querySelector('.soso');
+const happy = document.querySelector('.happy');

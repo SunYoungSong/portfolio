@@ -132,7 +132,7 @@
     height: 450px;
     font-family: 'DungGeunMo';
     font-size: 2rem;
-    line-height: 5.5vh;
+    line-height: 5vh;
 }
 
 
@@ -163,7 +163,7 @@
 
 .percentBox {
     width: 150px;
-    height: 450px;
+    height: 400px;
     /* border: 1px solid black; */
     top:60.5vh;
     left: 5vw;

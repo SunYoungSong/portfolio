@@ -47,6 +47,20 @@
     }
 }
 
+@keyframes tongtong3 {
+    0% {
+        bottom:57.5%;
+    }
+
+    50% {
+        bottom: 58.5%;
+    }
+
+    100% {
+        bottom: 57.5%;
+    }
+}
+
 .wiggle {
     animation: wiggle 8s infinite;
 }
@@ -62,6 +76,9 @@
 
 .tongtong2 {
     animation: tongtong2 2s ease-in-out alternate-reverse infinite;
+}
+.tongtong3 {
+    animation: tongtong3 2s ease-in-out alternate-reverse infinite;
 }
 
 .animateNone {
@@ -171,4 +188,28 @@
      transform:rotate(10deg);
 
 }
+}
+.HtShake1{
+    animation:HtShake1 1.5s ease-in-out alternate-reverse infinite;
+}
+@keyframes HtShake1 {
+    to{
+        transform: rotate(-10deg);
+    }
+    from{
+        transform: rotate(10deg);
+    }
+    
+}
+.HtShake2{
+    animation:HtShake2 1.5s ease-in-out alternate-reverse infinite;
+}
+@keyframes HtShake2 {
+    to{
+        transform: rotate(10deg);
+    }
+    from{
+        transform: rotate(-10deg);
+    }
+    
 }

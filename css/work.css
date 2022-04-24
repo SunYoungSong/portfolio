@@ -127,7 +127,7 @@
 /* button */
 .citypopBt {
     width: 250px;
-    height: 100px;
+    height: 50px;
     border: #fdbb2d 10px double;
     background-color: white;
     border-radius: 50px;
@@ -149,8 +149,8 @@
 }
 
 .hoggleBt {
-    width: 250px;
-    height: 100px;
+    width: 150px;
+    height: 50px;
     border: #fdbb2d 10px double;
     background-color: white;
     border-radius: 50px;
