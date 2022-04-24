@@ -1,0 +1,25 @@
+/* etc */
+.section4{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.link4 {
+    width: 100vw;
+    height: 6vh;
+    background-color: #fcc54d;
+}
+
+.linkBt4{
+    width: 3vw;
+    height: 4vh;
+    top: 1vh;
+    left: 1vw;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+}

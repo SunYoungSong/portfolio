@@ -129,9 +129,10 @@
 .license {
     top: 60vh;
     left: 43vw;
+    height: 450px;
     font-family: 'DungGeunMo';
     font-size: 2rem;
-    line-height: 5vh;
+    line-height: 5.5vh;
 }
 
 
