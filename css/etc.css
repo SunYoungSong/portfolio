@@ -92,4 +92,10 @@
     line-height: 70px;
     margin-top: 70px;
     font-size: 2rem;
+    color: #000;
+}
+.lastTextBox>a{
+    cursor: pointer;
+    color: #000;
+   
 }

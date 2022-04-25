@@ -165,5 +165,3 @@ etc.addEventListener('click',function(){
 sectionBtFour.addEventListener('click',function(){
     sectionfour.classList.add('hidden');
 });
-const soso = document.querySelector('.soso');
-const happy = document.querySelector('.happy');
