@@ -3,8 +3,6 @@
 .section3 {
     width: 100vw;
     height: 100vh;
-    background-color: black;
-
 }
 
 .link3 {
@@ -182,7 +180,7 @@
 
 }
 
-.ai>a>img {
+.ai>img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -190,7 +188,7 @@
     cursor: pointer;
 
 }
-.ai>a>img:hover{
+.ai>img:hover{
     transform: scale(1.1);
 }
 
@@ -202,7 +200,7 @@
     z-index: 1;
 }
 
-.ai2>a>img {
+.ai2>img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -211,7 +209,7 @@
 
 
 }
-.ai2>a>img:hover{
+.ai2>img:hover{
     transform: scale(1.1);
 }
 
@@ -224,7 +222,7 @@
     z-index: 1;
 }
 
-.ps>a>img {
+.ps>img {
     width: 100%;
     height: 100%;
     background: #fff;
@@ -234,7 +232,7 @@
 
 
 }
-.ps>a>img:hover{
+.ps>img:hover{
     transform: scale(1.1);
 }
 
@@ -247,7 +245,7 @@
     z-index: 1;
 }
 
-.olion>a>img {
+.olion>img {
     width: 100%;
     height: 100%;
     border: #fdbb2d 10px double;
@@ -255,6 +253,6 @@
     cursor: pointer;
 
 }
-.olion>a>img:hover{
+.olion>img:hover{
     transform: scale(1.1);
 }

@@ -129,7 +129,7 @@
 .license {
     top: 60vh;
     left: 43vw;
-    height: 450px;
+    height: 400px;
     font-family: 'DungGeunMo';
     font-size: 2rem;
     line-height: 5vh;
@@ -165,7 +165,7 @@
     width: 150px;
     height: 400px;
     /* border: 1px solid black; */
-    top:60.5vh;
+    top:60vh;
     left: 5vw;
     display: flex;
     flex-direction: column;
@@ -174,9 +174,10 @@
 
 .pc{
     width: 150px;
-    height: 30px;
+    height: 25px;
     border-radius: 50px;
     transition: 1.5s;
+    margin-top: 15px;
 
 }
 

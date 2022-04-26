@@ -59,7 +59,7 @@ console.log(sectionTwoTextRight);
     sectionTwo.classList.remove('hidden');
     sectionTwoTextLeft.classList.add('textShaking');
     sectionTwoTextRight.classList.add('textShaking');
-    
+          
     for(let i=0; i<percentDiv.length;i++){
         percentDiv[i].classList.add('show');
         pic[i].classList.add('picShaking');
@@ -78,7 +78,7 @@ console.log(sectionTwoTextRight);
  });
  etc.addEventListener('mouseover', function () {
      etc.classList.toggle('neon');
-     etc.style.cursor = 'pointer';
+     etc.style.cursor = 'pointer'; 
  });
 
 
@@ -97,12 +97,34 @@ me.addEventListener('click',function(){
 
 
 // slide moniter
+// 설명창 띄우기 
+const exOne = document.querySelector('.ex1');
+const exTwo = document.querySelector('.ex2');
+const exThree = document.querySelector('.ex3');
+const exFour = document.querySelector('.ex4');
+const exFive = document.querySelector('.ex5');
+const exSix = document.querySelector('.ex6');
+console.log(exOne);
+
+// 밑에 4개 작품 
+const Ai = document.querySelector('.ai>img');
+const AiTwo = document.querySelector('.ai2>img');
+const Ps = document.querySelector('.ps>img');
+const Olion = document.querySelector('.olion>img');
+const AiEx = document.querySelector('.ex3');
+const AiTwoEx = document.querySelector('.ex4');
+const PsEx = document.querySelector('.ex5');
+const OlionEx = document.querySelector('.ex6');
+
 // left citypop
 const leftPage = document.querySelector('.leftPage');
 const citypop = document.querySelector('.citypop');
 const citypopView = document.querySelector('.citypopview');
 const citypopImg = document.querySelectorAll('.citypop>img');
+
+
 console.log(leftPage);
+
 
 citypop.addEventListener('mouseover',function(){
     let index = 0;
@@ -119,7 +141,29 @@ citypop.addEventListener('mouseover',function(){
            }
        }
     }, 3000);
+    exOne.classList.remove('hidden');
 });
+citypop.addEventListener('mouseout',function(){
+    exOne.classList.add('hidden');
+
+});
+Ai.addEventListener('click',function(){
+    AiEx.classList.toggle('hidden');
+});
+
+AiTwo.addEventListener('click',function(){
+    AiTwoEx.classList.toggle('hidden');
+});
+
+Ps.addEventListener('click',function(){
+    PsEx.classList.toggle('hidden');
+});
+
+Olion.addEventListener('click',function(){
+    OlionEx.classList.toggle('hidden');
+});
+
+
 // right citypop
 const rightPage = document.querySelector('.rightPage');
 const hoggle = document.querySelector('.hoggle');
@@ -142,7 +186,12 @@ hoggle.addEventListener('mouseover',function(){
            }
        }
     }, 3000);
+    exTwo.classList.remove('hidden');
 });
+hoggle.addEventListener('mouseout',function(){
+    exTwo.classList.add('hidden');
+});
+
 
 
 //  section3 button
@@ -165,3 +214,6 @@ etc.addEventListener('click',function(){
 sectionBtFour.addEventListener('click',function(){
     sectionfour.classList.add('hidden');
 });
+
+
+
