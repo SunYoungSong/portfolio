@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0 auto ;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+    #container{
+       width: 1920px;
+       height: 1080px;
+       overflow: hidden;
+       background-color: aquamarine;
+    }
+    #bg{
+        width: 100%;
+        height: 100%;
+     
+    }
+    .deco{
+        bottom: 18%;
+        left: 15%;
+        animation: dongdong 2s ease-in-out alternate infinite;
+    }
+    .duck{
+        bottom: 12%;
+        right: 15%;
+        animation: swim 5s alternate infinite ;
+    }  
+    .pinkcloud1{
+        bottom: 6%;
+        left: 7%;
+    } 
+    .pinkcloud2{
+        bottom: 7%;
+        right: 3%;
+    }
+    .pinkcloud2>img{
+        width: 70%;
+        height: 70%;
+    }
+    .navi{
+        bottom: 7%;
+        left: 5%;
+        animation: fly 1s alternate infinite;
+    }
+    .navi1-2{
+        top: 30%;
+        right: 50%;
+        animation: flyTwo 1s alternate infinite;
+    }
+    .navi2{
+        top: 15%;
+        right: 10%;
+        animation: flythree 1s alternate infinite;
+    }
+    .navi2-1{
+        top: 30%;
+        left: 8%;
+        animation: flythree 1s alternate infinite;
+    }
+   
+    @keyframes fly{ 
+       0%{
+            transform: skewY(-10deg);
+        }
+
+       100%{
+            transform: skewY(10deg);
+       }
+    }
+    @keyframes flyTwo{ 
+        0%{
+            transform: skewY(10deg);
+        }
+        /* 50%{
+            transform: skewY(deg);
+        } */
+        100%{
+            transform: skewY(-10deg);
+        }
+    }
+    @keyframes flythree {
+        0%{
+            transform: skewY(10deg);
+        }
+        100%{
+            transform: scaleY(-10deg);
+        }
+    }
+    @keyframes dongdong {
+        
+        0%{
+            bottom: 8%;
+            /* left: 14%; */
+        }
+        50%{
+         
+            bottom: 8.5%; 
+            /* left: 15%; */
+        }
+        100%{
+            bottom: 8%;
+            /* left: 16%; */
+        }
+    }
+    @keyframes swim {
+            0%{
+                /* transform: skew(5deg); */
+                 right: 15%;
+            }  
+            50% {
+                transform: skew(5deg);
+                right: 16%;
+            }
+            100%{
+                right: 17%;
+            }
+    }
+    /* 공통 */
+    .p-r{
+        position: relative;
+    
+    }
+    .p-a{
+        position: absolute;
+    }
+    .sizeM{width: 90px; height: 90px;}
+    .sizeS{width: 45px; height: 45px;}
+    </style>
+</head>
+<body>
+    <div id="container" class="p-r" >
+            <img id="bg" class="p-a" src="image/bg.jpg" alt="배경">
+            <div class="deco p-a"><img src="image/deco.png" alt="둥둥도넛"></div>
+            <div class="duck p-a"><img src="image/duck.png" alt="둥둥오리"></div> 
+            <div class="pinkcloud1 p-a"><img src="image/pinkC.png" alt="왼쪽 핑크구름"></div> 
+            <div class="pinkcloud2 p-a"><img src="image/pinkC2.png" alt="오른쪽 핑크구름"></div>
+            <div class="navi p-a"><img src="image/navi1.png" alt="나비 1"></div>
+            <div class="navi1-2 p-a"><img src="image/navi1-2.png" alt="나비2"></div>
+            <div class="navi2 p-a"><img src="image/navi2.png" alt="나비3"></div>
+            <div class="navi2-1 p-a"><img src="image/navi2-1.png" alt="나비4"></div>
+            <div class="bubble">
+                <img class="p-a" src="image/bubble.png" alt="1">
+                <img class="p-a"  src="image/bubble.png" alt="2">
+                <img class="p-a"  src="image/bubble.png" alt="3">
+                <img class="p-a"  src="image/bubble.png" alt="4">
+                <img class="p-a"  src="image/bubble.png" alt="5">
+                <img class="p-a"  src="image/bubble.png" alt="6">
+                <img class="p-a"  src="image/bubble.png" alt="7">
+                <img class="p-a"  src="image/bubble.png" alt="8">
+                <!-- 사이즈 m -->
+                <img class="p-a sizeM"  src="image/bubble.png" alt="9">
+                <img class="p-a sizeM"  src="image/bubble.png" alt="10">
+                <img class="p-a sizeM"  src="image/bubble.png" alt="11">
+                <img class="p-a sizeM"  src="image/bubble.png" alt="12">
+                <img class="p-a sizeM"  src="image/bubble.png" alt="13">
+                <img class="p-a sizeM"  src="image/bubble.png" alt="14">
+                <!-- 사이즈 s -->
+                <img class="p-a sizeS"  src="image/bubble.png" alt="15">
+                <img class="p-a sizeS"  src="image/bubble.png" alt="16">
+                <img class="p-a sizeS"  src="image/bubble.png" alt="17">
+                <img class="p-a sizeS"  src="image/bubble.png" alt="18">
+                <img class="p-a sizeS"  src="image/bubble.png" alt="19">
+                <img class="p-a sizeS"  src="image/bubble.png" alt="20">
+            </div>
+        </img>        
+    </div>
+
+    <div id="histroy">
+        <h1> 시티팝이 뭔데</h1>
+        <h1> 시티팝은 1970-1980년대의 일본의 버블경제시대에
+            한 팝형태의 장르이다. 음악의 가사나 분위기, 사운드가 
+        "도시적인 분위기"의 형태를 나타내고 있다.
+         시티팝은 일본 버블 경제 당시의 풍요롭고 여유로운 낭만이있는
+         그 시절의 자유로운 모습을 보여주고 있다.
+    </h1>
+    <p>hello</p>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+	margin: 0px;
+	overflow: hidden;
+}
+
+ #warna{
+ 	background-color: black;
+ 	width: 100vw;
+ 	height: 100vh;
+ 	font-size: 70px;
+ 	position: absolute;
+ 	transition: all ease 1s;
+ 	
+ }
+
+#star{
+	position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+@keyframes back {
+
+	0%{
+		background-color: white;
+	}
+	100%{background-color: blcak;}
+
+}
+    </style>
+</head>
+<body>
+    <div id="warna">
+        <div id="star"></div>
+
+    </div>
+
+    <script>
+
+
+function random(){
+    let much = [1,2,3,4,5,6,7,8,9,10];
+    let upW = [100,200,300,400,500,600,700,800,900,0];
+    let size = [10 ,20,30,40,50,60,70,80,90];
+    
+    let color = [ 'white', 'orange','pink','lightpink','lightskyblue']
+    let colorRandom = color[Math.floor(Math.random()*color.length)];
+    
+    let one = much[Math.floor(Math.random()*much.length)];
+    let two = upW[Math.floor(Math.random()*upW.length)];
+    let three = size[Math.floor(Math.random()*size.length)];
+
+
+
+document.getElementById('star').style.width = (one + three +'px');
+document.getElementById('star').style.height = (one + three +'px');
+document.getElementById('star').style.top = (one + two +'px');
+document.getElementById('star').style.left = (one + two +'px');
+// document.getElementById('star').innerHTML = (one + three +'px');
+document.getElementById('star').style.backgroundColor = colorRandom;
+}
+
+
+
+mulai();
+
+
+function putar(){
+ 	mulai();
+}
+
+function mulai(){
+setInterval(function(){
+   random();
+ }, 1000);
+
+}
+
+addEventListener('onload',mulai);
+// 
+
+
+//     function random(){
+// var satuan = [1,0];
+// var ratusan = [100,200,300,400,500,600,700,800,900,0];
+// var puluhan = [10,20,30,40,50,60,70,80,90,0];
+// var satuan = [1,2,3,4,5,6,7,8,9,0];
+
+// var isiwar = [ 'blue', '#722626','green','#014840','#31480C','#5E533A','#555643','purple','#AD4766','blue','red','orange']
+// var tampilwar = isiwar[Math.floor(Math.random()*isiwar.length)];
+
+// var hasill = satuan[Math.floor(Math.random()*satuan.length)];
+// var hasill2 = ratusan[Math.floor(Math.random()*ratusan.length)];
+// var hasill3 = puluhan[Math.floor(Math.random()*puluhan.length)];
+// var hasill4 = satuan[Math.floor(Math.random()*satuan.length)];
+
+
+
+// document.getElementById('warna').style.fontSize = (hasill3+hasill4+'px');
+// document.getElementById('star').style.left = (hasill3+hasill4+'px');
+// document.getElementById('star').style.top = (hasill3+hasill4+'px');
+// document.getElementById('star').style.transform = ('rotate('+hasill3+hasill4+'deg)');
+// //document.getElementById('text2').style.left = (hasill4+hasill3+'px');
+// //document.getElementById('text2').style.top = (hasill4+hasill3+'px');
+// document.getElementById('star').innerHTML = (hasill4+hasill3+hasill2+'px');
+// //document.getElementById('text2').style.transform = ('rotate('+hasill4+hasill3+'deg)');
+// document.getElementById('warna').style.backgroundColor = tampilwar;
+// putar();
+
+// }
+
+// mulai();
+
+
+// function putar(){
+// 	mulai();
+// }
+
+// function mulai(){
+
+// setTimeout(function() {
+//   random();
+// }, 500);
+
+// }
+
+
+    </script>
+</body>
+</html>

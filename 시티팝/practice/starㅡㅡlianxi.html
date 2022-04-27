@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <style>
+
+        *{
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #container{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+        }
+        #container>div{
+            width: 20px;
+            height: 20px;
+          
+        }
+
+
+     </style>
+</head>
+<body>
+    <div id="container">
+
+        <div id="star1"><img src="img/star1.svg" alt=""></div>
+        <div id="star2"><img src="img/star2.svg" alt=""></div>
+    </div>
+
+    <script>
+
+        const starOne = document.querySelectorAll('#star1');
+        const starTwo = document.querySelectorAll('#star2');
+        console.log(starOne.length);
+
+        function random(){
+
+ 
+
+        for(let i=0; i<starOne.length;i++){
+        let width = Math.floor(Math.random()*600);
+        let height = Math.floor(Math.random()*600);
+        let sizeW = Math.floor(Math.random()*30);
+        let sizeh = Math.floor(Math.random()*30);
+        let many = Math.floor(Math.random()*200);
+            starOne[i].style.top = (width+'px');
+            starOne[i].style.left = (height+'px');
+            starOne[i].style.width = (sizeW+'px');
+            starOne[i].style.height = (sizeh+'px');
+        }
+        for(let i= 0; i<starTwo.length;i++){
+        let width = Math.floor(Math.random()*600);
+        let height = Math.floor(Math.random()*600);
+        let sizeW = Math.floor(Math.random()*30);
+        let sizeh = Math.floor(Math.random()*30);
+        let many = Math.floor(Math.random()*200);
+        starTwo[i].style.top = (width+'px');
+        starTwo[i].style.left = (height+'px');
+        starTwo[i].style.width = (sizeW+'px');
+        starTwo[i].style.height = (sizeh+'px');
+        }
+    }
+        mulai();
+        function putar(){
+            mulai();
+        }
+
+        function mulai(){
+            setInterval(function(){
+                random();
+            },500);
+        }
+        
+        addEventListener('onload',mulai);
+        
+        
+    </script>
+</body>
+</html>

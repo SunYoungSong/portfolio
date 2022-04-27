@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITYPOP</title>
+    <link rel="stylesheet" href="css/screen1.css">
+    <link rel="stylesheet" href="css/screen-2.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/screen-3.css">
+
+    <style>
+        /* 공통 */
+
+        .p-r {
+            position: relative;
+        }
+
+        .p-a {
+            position: absolute;
+        }
+
+        .p-f {
+            position: fixed;
+        }
+
+        .shine {
+            animation: shine 3s ease-in-out alternate infinite;
+        }
+
+        .starOne {
+            position: absolute;
+            background-image: url(img/star1.svg);
+            width: 10px;
+            height: 10px;
+
+        }
+
+        .starTwo {
+            position: absolute;
+            background-image: url(img/star2.svg);
+            width: 6px;
+            height: 6px;
+            transition: 100;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="contain">
+        <div id="s-one" class="p-r">
+            <audio id="audi" class="p-f" loop controls>
+                <source src="./Music/stay with me -마츠바라 미키.mp3" type="audio/mpeg"> </audio>
+            <p class="audioName p-f">真夜中のドア~Stay With Me ( 한밤중의 도어~Stay With Me) - Miki Matsubara(마츠바라 미키/松原みき)</p>
+            <img class="bg1 p-a" src="img/bg1.png" alt="배경">
+            <img class="bg2 p-a translate " src="img/Heart.svg" alt="하트달">
+            <img class="bg3 p-a" src="img/bg3.png" alt="건물">
+
+        </div>
+    </div>
+    <div id="s-Two" class="p-r">
+        <img src="img/bg2.png " alt="배경2" class="bg p-a">
+        <img class="bilding p-a" src="img/s-1.svg" alt="빌딩">
+        <img class="cloud1 p-a" src="img/cloud1.svg" alt="윗구름">
+        <img class="cloud2 p-a " src="img/cloud2.svg" alt="아랫구름">
+        <div id="shine" class="p-a"></div>
+        <h1 class="tittle p-a">"CITYPOP"</h1>
+        <p class="inform p-a">시티팝( シティ・ポップ )은 1970~1980년대에 일본의 존재하던 <br>
+            대중적인 음악의 한 부류를 총칭하는 말입니다. <br>
+            시티팝은 이름에 걸맞게 도시적인인 분위기를 풍기는 것을 알 수 있습니다.<br>
+            재팬 타임즈는 , "시티팝은 소울과 퓨전, AOR을 섞은 사운드에 <br>
+            버블경제시절의 도시의 삶을 가사에 얹은 음악"이라고 정의하기도 하였습니다. <br>
+            이렇게 시티팝에서 알 수 있듯이 제일 중요한 키워드는 "버블경제시대"입니다. <br>
+            여기서 버블 경제시대란, <br>
+            "일본이 실제 미국을 제치고 세계에서 제일 잘 살던 시절"을 의미합니다.<br>
+            그래서 시티팝은 "호시절의 여유로움 , 낭만, 낙천적 사고, 그 시절만의 자유로움"을<br>
+            보여준다는 것을 알 수 있습니다. 여기서 시티팝을 팝과 디스코 , 알앤비 등 서향의 <br>
+            음악을 동양화 시킨 베겨온 음악이라고 주장하는 사람도 있습니다.<br>
+            하지만 확실한 한가지는 시티팝이란 음악은 서향의 영향을 받은 것은 사실이지만 <br>
+            어디까지나 일본인이 , 일본에서 추구한, 일본음악이라는 점입니다. <br>
+            다른 어떤 장르에서도 느낄 수 없는 일본만의 독자적이고 매력적인 분위기가 <br>
+            시티팝이라는 하나의 장르로 발전시켜준 것이라고 생각합니다.<br>
+            당신은 왜 시티팝에 빠져들게 되었나요?<br>
+            저희는 이렇게 생각합니다. 겪어보진 않았기에 과거와 추억이 아닌<br>
+            다신 겪어보질 못할 호시절에 대한 갈망하는 잃어버린 세계라고 생각합니다. <br>
+            <br>
+
+            출처 : 김봉현의 랩게임토크 - <a href="https://youtu.be/W9JRjlhUYqk?t=425">https://youtu.be/W9JRjlhUYqk?t=425</a>
+
+
+        </p>
+    </div>
+    <div id="s-three" class="p-r">
+        <img src="img/bg4.svg" alt="레코드판 배경" class="bg4">
+        <p class="p-a">BEST CITYPOP PLAYLIST</p>
+        <div id="record" class="p-a"> <img src="img/record.png" alt="레코드판"></div>
+
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
