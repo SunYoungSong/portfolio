@@ -58,10 +58,12 @@ console.log(sectionTwoTextRight);
  wai.addEventListener('click',function(){
     sectionTwo.classList.remove('hidden');
     sectionTwoTextLeft.classList.add('textShaking');
-    sectionTwoTextRight.classList.add('textShaking');
           
+    console.log(percentDiv);
     for(let i=0; i<percentDiv.length;i++){
         percentDiv[i].classList.add('show');
+    }
+    for(let i=0; i<pic.length;i++){
         pic[i].classList.add('picShaking');
     }
 
@@ -141,10 +143,9 @@ citypop.addEventListener('mouseover',function(){
            }
        }
     }, 3000);
-    exOne.classList.remove('hidden');
 });
-citypop.addEventListener('mouseout',function(){
-    exOne.classList.add('hidden');
+citypop.addEventListener('click',function(){
+    exOne.classList.toggle('hidden');
 
 });
 Ai.addEventListener('click',function(){
@@ -186,10 +187,9 @@ hoggle.addEventListener('mouseover',function(){
            }
        }
     }, 3000);
-    exTwo.classList.remove('hidden');
 });
-hoggle.addEventListener('mouseout',function(){
-    exTwo.classList.add('hidden');
+hoggle.addEventListener('click',function(){
+    exTwo.classList.toggle('hidden');
 });
 
 
