@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sunyoung is Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/WAI.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/websize.css">
+    <link rel="stylesheet" href="css/etc.css">
+    <style>
+        /* 공통구간 - 선택  */
+        * {
+            list-style: inherit;
+            margin: 0 auto;
+            text-decoration: none;
+
+
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a:active {
+            color: black;
+        }
+
+        .p-r {
+            position: relative;
+        }
+
+        .p-a {
+            position: absolute;
+        }
+
+        .p-f {
+            position: fixed;
+        }
+
+        .main-f {
+            font-size: 6rem;
+            font-family: 'RixYeoljeongdo_Regular';
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .opacity {
+            opacity: 0;
+        }
+
+        .ex {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50px;
+            background-color: azure;
+            border: 2px solid #fcc54d;
+            box-shadow: 7px 7px 0px #fcc54d;
+            font-family: 'SDSamliphopangche_Outline';
+            text-align: center;
+            padding: 30px;
+            transition: 3s;
+            z-index: 3;
+        }
+
+        .ex>h1 {
+            font-size: 40px;
+        }
+
+        .ex>p {
+            font-family: 'IM_Hyemin-Bold';
+            margin-top: 30px;
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        .ex1 {
+            top: 10%;
+            right: 10%;
+        }
+
+        .ex2 {
+            top: 10%;
+            right: 10%;
+        }
+
+        .exmini {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border-radius: 50px;
+            background-color: azure;
+            border: 2px solid #fcc54d;
+            box-shadow: 7px 7px 0px #fcc54d;
+            font-family: 'SDSamliphopangche_Outline';
+            text-align: center;
+            padding: 30px;
+            transition: 3s;
+            z-index: 3;
+            cursor: pointer;
+
+        }
+
+        .exmini>h1 {
+            font-size: 30px;
+        }
+
+        .exmini>p {
+            font-family: 'IM_Hyemin-Bold';
+            margin-top: 30px;
+            font-size: 19px;
+            line-height: 30px;
+        }
+
+        .ex3 {
+            top: 0%;
+            left: 15%;
+        }
+
+        .ex4 {
+            top: 0%;
+            left: 35%;
+        }
+
+        .ex5 {
+            top: 0%;
+            left: 55%;
+        }
+
+        .ex6 {
+            top: 0%;
+            left: 75%;
+        }
+
+
+        /* -----plus font----- */
+        @font-face {
+            font-family: 'goose';
+            src: url(font/Gooseberry\ Juice.otf);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'DungGeunMo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'IM_Hyemin-Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'SDSamliphopangche_Outline';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'CWDangamAsac-Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'RixYeoljeongdo_Regular';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'KoPubDotumMedium';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+
+</head>
+
+<body class="p-r">
+
+    <div class="section1 p-a">
+        <div class="bubble p-r hidden">
+            <img src="img/SVG/Asset 14.svg" alt="말풍선" class="p-a">
+            <p class="p-a">Welcome, everyone. <br>
+                This is SongSunYoung's portfolio<br>
+                Thank you.</p>
+        </div>
+        <img class="main-c p-a tongtong" src="img/main-c.svg" alt="main-캐릭터">
+        <div class="shadow p-a tongtong2"></div>
+        <img class="main-1 p-a " src="img/1.svg" alt="후아유젤리">
+        <img class="main-2 p-a" src="img/2.svg" alt="연보라젤리">
+        <img class="main-3 p-a" src="img/3.svg" alt="연두콩젤리">
+        <img class="main-4 p-a" src="img/4.svg" alt="진달래젤리">
+        <img class="main-5 p-a " src="img/5.svg" alt="워킹젤리">
+        <img class="main-6 p-a" src="img/6.svg" alt="핫핑크젤리">
+        <img class="main-7 p-a" src="img/7.svg" alt="라임젤리">
+        <img class="main-8 p-a" src="img/8.svg" alt="하늘색젤리">
+        <img class="main-9 p-a " src="img/9.svg" alt="이티시젤리">
+        <img class="main-10 p-a" src="img/10.svg" alt="유치원노랑젤리">
+        <img class="main-11 p-a" src="img/11.svg" alt="퍼플젤리">
+        <!-- <img src="img/SVG/Asset 13.svg" alt="꽃" class="flower wiggle f-1"> -->
+        <img src="img/SVG/Asset 13.svg" alt="꽃" class="flower wiggle f-2">
+        <img src="img/SVG/Asset 13.svg" alt="꽃" class="flower wiggle f-3">
+        <img src="img/SVG/Asset 13.svg" alt="꽃" class="flower wiggle2 f-4">
+        <img src="img/SVG/Asset 13.svg" alt="꽃" class="flower wiggle f-5">
+        <img src="img/SVG/Asset 13.svg" alt="꽃" class="flower wiggle f-6">
+        <img src="img/SVG/Asset 13.svg" alt="꽃" class="flower wiggle2 f-7">
+        <img src="img/SVG/Asset 13.svg" alt="꽃" class="flower wiggle f-8">
+
+        <p class="wai p-a main-f ">WHO AM I</p>
+        <p class="work p-a main-f ">WORK</p>
+        <p class="etc p-a main-f ">ETC</p>
+    </div>
+    <div class="section2 p-a hidden">
+        <div class="link p-r">
+            <div class="surch p-a">
+                <p class="linktext">www.songsunyoung-Portfolio.com</p>
+            </div>
+
+            <button class=" linkBt p-a">X</button>
+            <!-- <div class="heart p-a">
+                <img src="img/wai/Asset 10.svg" alt="하트">
+                <img src="img/wai/Asset 1.svg" alt="하트">
+                <img src="img/wai/Asset 2.svg" alt="하트">
+                <img src="img/wai/Asset 3.svg" alt="하트">
+                <img src="img/wai/Asset 4.svg" alt="하트">
+                <img src="img/wai/Asset 5.svg" alt="하트">
+                <img src="img/wai/Asset 6.svg" alt="하트">
+                <img src="img/wai/Asset 7.svg" alt="하트">
+                <img src="img/wai/Asset 8.svg" alt="하트">
+                <img src="img/wai/Asset 9.svg" alt="하트">
+            </div> -->
+            <img src="img/SVG/취업사진　송선영.jpg" alt="증명사진" class="me p-a">
+            <img src="img/SVG/Asset 1.svg" alt="오른쪽" class="left p-a">
+            <img src="img/SVG/Asset 2.svg" alt="왼쪽" class="right p-a">
+            <div class="textRight p-a">
+                <p> “ Web publisher ”</p>
+                <h1>안녕하세요 웹퍼블리셔 송선영입니다 :) <br>
+                    저는 독특한 저만의 색상을<br>
+                    UX & UI 위에 표현하는 웹 예술가 입니다.<br>
+                    <br>
+                    여러분야의 컨셉을 활용하여 <br>
+                    저만의 것으로 재해석해서 표현하는 것이 <br>
+                    저의 특징입니다. <br>
+                    <br>
+                    다양한 아이디어들로 매번 새롭게 <br>
+                    도전하는 모습을 보여드리고 싶어요 :)<br>
+
+                </h1>
+            </div>
+            <div class="textLeft p-a">
+                <p>“ 저는 이런 인재입니다 :) ”</p>
+                <h1>●항상　열린마음으로　언제든지<br>
+                    배울　준비가　되어있는　인재<br>
+                    <br>
+                    ●열정과　도전적인　정신으로　<br>
+                    무한한　발전가능성을　보여주는　인재<br>
+                    <br>
+                    ●활발한　성격과　센스있는　행동으로<br>
+                    언제든　회사의　분위기를　ＵＰ시켜줄　인재<br>
+                    <br>
+                    <br>
+                    ●그런　인재로　＂송선영＂　어떠세요？
+
+                </h1>
+            </div>
+            <div class="license p-a">
+                <p>HP</p>
+                <p>Ps & Ai</p>
+                <p>Xd</p>
+                <p>Css</p>
+                <p>Html</p>
+                <p>Js * Jqury</p>
+                <p>GitHub</p>
+
+            </div>
+            <div class="percentBox p-r">
+                <div class="percent-1 pc"></div>
+                <div class="percent-2 pc"></div>
+                <div class="percent-3 pc"></div>
+                <div class="percent-4 pc"></div>
+                <div class="percent-5 pc"></div>
+                <div class="percent-6 pc"></div>
+                <div class="percent-7 pc"></div>
+            </div>
+
+
+            <img src="img/SVG/Asset 3.svg" alt="" class="pic p-a deco1">
+            <img src="img/SVG/Asset 4.svg" alt="" class="pic p-a deco2">
+            <img src="img/SVG/Asset 5.svg" alt="" class="pic p-a deco3">
+            <img src="img/SVG/Asset 6.svg" alt="" class="pic p-a deco4">
+
+        </div>
+
+    </div>
+
+    <div class="section3 hidden p-a  ">
+        <div class="link3 p-r">
+            <div class="surch p-a">
+                <p class="linktext">www.songsunyoung-Portfolio.com</p>
+            </div>
+            <button class="linkBtThree p-a">X</button>
+            <!-- <div class="heart p-a">
+                <img src="img/wai/Asset 10.svg" alt="하트">
+                <img src="img/wai/Asset 1.svg" alt="하트">
+                <img src="img/wai/Asset 2.svg" alt="하트">
+                <img src="img/wai/Asset 3.svg" alt="하트">
+                <img src="img/wai/Asset 4.svg" alt="하트">
+                <img src="img/wai/Asset 5.svg" alt="하트">
+                <img src="img/wai/Asset 6.svg" alt="하트">
+                <img src="img/wai/Asset 7.svg" alt="하트">
+                <img src="img/wai/Asset 8.svg" alt="하트">
+                <img src="img/wai/Asset 9.svg" alt="하트">
+            </div> -->
+            <div class="section3Page p-r">
+                <div class="leftPage p-r">
+                    <img class="citypopview p-a" src="img/section3/모니터3.png" alt="citypop">
+                    <div class="citypop p-a">
+                        <img class="citypop1" src="img/section3/citypop1.PNG" alt="시티팝1">
+                        <img class="citypop2" src="img/section3/citypop2.PNG" alt="시티팝1">
+                        <img class="citypop3" src="img/section3/citypop3.PNG" alt="시티팝1">
+                        <img class="citypop4" src="img/section3/citypop4.PNG" alt="시티팝1">
+                        <img class="citypop5" src="img/section3/citypop5.PNG" alt="시티팝1">
+                    </div>
+                    <button class="citypopBt p-a">
+                        <a href="시티팝/index.html" target="_blank">CITYPOP _WORLD</a></button>
+                    <div class="hidden ex ex1 ">
+                        <h1>CITYPOP_WORLD</h1>
+                        <p>
+                            ​시티팝 마니아들 혹은
+                            시티팝을 <br>입문하는 입문자들에게
+
+                            정보도<br>얻을 수 있고,눈과 귀를 즐겁게<br>
+                            해주기 위해 제작한 페이지입니다 :) <br>
+                            화려한 도시적인 분위기와 <br>시티팝특유의 몽롱한 느낌의 분위기를 <br>
+                            페이지로 구현해보았습니다. <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="rightPage p-r">
+                    <button class="hoggleBt p-a">
+                        <a href="hoggle/코딩작업/main.html" target="_blank">HOGGLE</a></button>
+                    <img class="hoggleview p-a" src="img/section3/모니터3.png" alt="hoggle">
+                    <div class="hoggle p-a">
+                        <img class="hoggle1" src="img/section3/hoggle1.PNG" alt="hoggle1">
+                        <img class="hoggle2" src="img/section3/hoggle2.PNG" alt="hoggle1">
+                        <img class="hoggle3" src="img/section3/hoggle3.PNG" alt="hoggle1">
+                        <img class="hoggle4" src="img/section3/hoggle5.PNG" alt="hoggle1">
+                        <img class="hoggle5" src="img/section3/hoggle6.PNG" alt="hoggle1">
+                    </div>
+                    <div class="hidden ex ex2 ">
+                        <h1>HOGGLE</h1>
+                        <p>
+                            "HOGGLE"은 호그와트와 머글의<br> 합성어로,
+                            호그와트에 가고 싶은<br> 팬(머글)이라는 의미로
+                            해리포터<br> 팬들을 위해 제작된 창작 페이지입니다 :)<br>
+                            해리포터의 미스테리하고<br> 판타지스러운 분위기를
+                            컨셉으로 페이지를 구현해보았습니다.<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="etcPage p-r">
+                    <div class="bgc p-a"></div>
+                    <div class="ai p-a"><img src="woking/Asset 1.png" alt="일러스트 작품">
+                    </div>
+                    <div class="ai2 p-a"><img src="woking/창작아이콘_송선영.jpg" alt="아이콘 창작"></div>
+                    <div class="ps p-a"><img src="woking/수정 로고.png" alt="브랜드 창작">
+                    </div>
+                    <div class="olion p-a"><img src="woking/olion.png" alt="오리온팀플"></div>
+
+                    <!-- 설명창 구간  -->
+                    <a href="woking/일러스트 첫작품영상.mp4"target="_blank">
+                        <div class="hidden ex3 exmini">
+                            <h1>일러스트 첫 작품</h1>
+                            <p>
+                                일러스트를 처음 배우고,<br>도전한
+                                작품으로 펜툴만을<br>사용하여 만들어보았습니다.<br>
+                                저의 도전적인 정신과 열정을<br> 보여줄 수 있는
+                                작품이었습니다.<br>
+                            </p>
+                        </div>
+                    </a>
+                    <a href="woking/창작아이콘_송선영-Recovered.gif"target="_blank">
+                        <div class="hidden exmini ex4 ">
+                            <h1>아이콘 창작물</h1>
+                            <p>
+                                "해리포터 세계관에 수업 아이콘이 있다면?"을 생각하여
+                                포토샵과 일러스트를 혼용하여 제작한
+                                창작아이콘입니다 :)
+                            </p>
+                        </div>
+                    </a>
+                    <a href="woking/최종 완성 라인 copy.pdf" target="_blank">
+                        <div class="hidden exmini ex5 ">
+                            <h1>심볼 창작물</h1>
+                            <p>
+                                "Entique"라는 식기 회사를 창작으로
+                                그 회사에 어울리는 심볼을 제작하여
+                                목업까지 한 작품입니다 :)
+                            </p>
+                        </div>
+                    </a>
+                    <a href="woking/오리온 최종/main.html" target="_blank">
+                        <div class="hidden exmini ex6 ">
+                            <h1>오리온 리뉴얼- 협동</h1>
+                            <p>
+                                오리온 기존 페이지의 불편한 점과 오래된 디자인을
+                                보완하여 니즈를 기반으로 컨셉에 어울리는 분위기의 디자인으로
+                                새롭게 리뉴얼한 협동 작품입니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section4 hidden p-a">
+        <div class="link4 p-r">
+            <div class="surch p-a">
+                <p class="linktext">www.songsunyoung-Portfolio.com</p>
+            </div>
+            <button class="linkBt4 p-a">X</button>
+            <!-- <div class="heart p-a">
+                    <img src="img/wai/Asset 10.svg" alt="하트">
+                    <img src="img/wai/Asset 1.svg" alt="하트">
+                    <img src="img/wai/Asset 2.svg" alt="하트">
+                    <img src="img/wai/Asset 3.svg" alt="하트">
+                    <img src="img/wai/Asset 4.svg" alt="하트">
+                    <img src="img/wai/Asset 5.svg" alt="하트">
+                    <img src="img/wai/Asset 6.svg" alt="하트">
+                    <img src="img/wai/Asset 7.svg" alt="하트">
+                    <img src="img/wai/Asset 8.svg" alt="하트">
+                    <img src="img/wai/Asset 9.svg" alt="하트">
+                </div> -->
+        </div>
+
+        <img src="img/section4/SVG/Asset 3.svg" alt="1" class="cloud1 p-a">
+        <img src="img/section4/SVG/Asset 4.svg" alt="2" class="cloud2 p-a">
+        <img src="img/section4/SVG/Asset 5.svg" alt="3" class="cloud3 p-a">
+        <img src="img/section4/SVG/Asset 6.svg" alt="4" class="cloud4 p-a">
+
+        <!-- <div id="soso" class="soso p-a"><img src="img/section4/SVG/Asset 1.svg" alt="무표정"></div> -->
+        <div class="tongtong3 Change happy p-a"><img src="img/section4/SVG/Asset 11.svg" alt="무표정"></div>
+        <img src="img/section4/SVG/Asset 7.svg" alt="" class="miniHt1 p-a HtShake2">
+        <img src="img/section4/SVG/Asset 8.svg" alt="" class="miniHt2 p-a HtShake1">
+        <img src="img/section4/SVG/Asset 9.svg" alt="" class="miniHt3 p-a HtShake2">
+        <img src="img/section4/SVG/Asset 10.svg" alt="" class="miniHt4 p-a HtShake1">
+
+        <div class="lastTextBox p-r">
+            <h1>THANK YOU</h1>
+            <p>E-mail - ssy6616@naver.com<br>
+                <a href="https://blog.naver.com/ssy6616"target="_blank"> https://blog.naver.com/ssy6616</a><br>
+                TEL - 010 _ 9552 _ 6616
+            </p>
+        </div>
+
+
+
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>

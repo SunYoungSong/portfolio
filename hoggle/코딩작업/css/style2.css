@@ -1,0 +1,498 @@
+@font-face {
+    font-family: harry-p;
+    src: url(../font/harry-p.ttf);
+}
+@font-face {
+    font-family:cafe ;
+    src: url(../font/Cafe24Oneprettynight.ttf);
+}
+
+
+
+/* ---------------초기화 */
+*{
+    margin: 0 auto;
+    padding: 0 ;
+    box-sizing: border-box;
+
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* -----------로고 앤 메뉴 */
+
+#container{
+    width: 100vw;
+    height:3000px;
+    position: relative;
+    background-color: #20302A;
+}
+
+#container>.logo>img{
+    width: 55px;
+    height: 35px;
+    top: 10px;
+    left: 30px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#container>.logo>img:hover{
+ opacity: 1;
+}
+#container>.logo>.menu{
+    width: 700px;
+    height: 50px; 
+    top: 50px;
+    left: 35px;
+    /* display: inline-flex; */
+
+ }
+ #container>.logo>.menu>a>li{
+
+    margin-right: 130px;
+    opacity: 0.5;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+#container>.logo>.menu>a>li:hover{
+    opacity: 1;
+    animation: glow 1s ease-in-out infinite alternate;
+    cursor: pointer;
+}
+
+.back{
+    width: 50px;
+    height: 50px;
+    top: 1%;
+    right: 3%;
+    background-color: rgb(165, 179, 161);
+    border-radius:50% ;
+    line-height: 50px;
+    text-align: center;
+    font-family:'kotra';
+    color: #fff;
+    text-shadow: 1px 1px 0px #20302A;
+}
+.openText{
+    font-family: harry-p;
+    font-size: 5rem;
+    color: #FBF1E0;
+    width: 1200px;
+    top: 150px;
+    left:50%;
+    transform: translateX(-50%);
+    font-weight: lighter;
+    z-index: 1;
+
+}
+
+.openText>strong{
+    font-size: 10rem;
+    font-weight: lighter;
+}
+
+/*------------------------가랜드 */
+
+.garland{
+    width: 100vw;
+    height: 30%;
+    top:20vh;
+    left: 0;
+}
+/* 가랜드 아이콘 */
+.icA{
+    top: 12%;
+    left: 9%;
+   transform: scale(0.7) rotate(17deg);
+}
+.icA:hover{
+    transform: scale(0.9) rotate(17deg);
+    cursor: pointer;
+}
+
+
+.icB{
+    top: 16.5%;
+    left: 15%;
+   transform: scale(0.7) rotate(14deg);
+}
+.icB:hover{
+    transform: scale(0.9) rotate(14deg);
+    cursor: pointer;
+} 
+
+
+.icC{
+    top: 20.5%;
+    left: 21%;
+   transform: scale(0.7) rotate(12deg);
+}
+.icC:hover{
+    transform: scale(0.9) rotate(12deg);
+    cursor: pointer;
+}
+
+
+
+
+.icD{
+    top: 23.5%;
+    left: 27%;
+   transform: scale(0.7) rotate(10deg);
+}
+.icD:hover{
+    transform: scale(0.9) rotate(10deg);
+    cursor: pointer;
+} 
+
+
+
+.icE{
+    top: 25.5%;
+    left: 33%;
+   transform: scale(0.7) rotate(8deg);
+}
+.icE:hover{
+    transform: scale(0.9) rotate(8deg);
+    cursor: pointer;
+}
+
+
+
+.icF{
+    top: 27%;
+    left: 39%;
+   transform: scale(0.7) rotate(5deg);
+}
+.icF:hover{
+    transform: scale(0.9) rotate(5deg);
+    cursor: pointer;
+}
+
+
+
+.icG{
+    top: 28%;
+    left: 45%;
+   transform: scale(0.7) rotate(3deg);
+}
+.icG:hover{
+    transform: scale(0.9) rotate(3deg);
+    cursor: pointer;
+}
+
+
+.icH{
+    top: 28%;
+    left: 51%;
+   transform: scale(0.7) rotate(359deg);
+}
+.icH:hover{
+    transform: scale(0.9) rotate(359deg);
+    cursor: pointer;
+}
+
+
+
+.icI{
+    top: 27.5%;
+    left: 57%;
+   transform: scale(0.7) rotate(357deg);
+}
+.icI:hover{
+    transform: scale(0.9) rotate(357deg);
+    cursor: pointer;
+}
+
+
+
+.icK{
+    top: 26%;
+    left: 63%;
+   transform: scale(0.7) rotate(355deg);
+}
+ .icK:hover{
+    transform: scale(0.9) rotate(353deg);
+    cursor: pointer;
+} 
+
+
+
+.icL{
+    top: 24%;
+    left: 69%;
+   transform: scale(0.7) rotate(351deg);
+}
+.icL:hover{
+    transform: scale(0.9) rotate(351deg);
+    cursor: pointer;
+}
+
+
+.icM{
+    top: 21.5%;
+    left: 75%;
+   transform: scale(0.7) rotate(348deg);
+}
+.icM:hover{
+    transform: scale(0.9) rotate(348deg);
+    cursor: pointer;
+}
+
+
+
+.icN{
+    top:17.5%;
+    left: 81%;
+   transform: scale(0.7) rotate(345deg);
+}
+.icN:hover{
+    transform: scale(0.9) rotate(345deg);
+    cursor: pointer;
+}
+
+
+
+.icO{
+    top: 13.5%;
+    left: 87%;
+   transform: scale(0.7) rotate(342deg);
+}
+.icO:hover{
+    transform: scale(0.9) rotate(342deg);
+    cursor: pointer;
+}
+
+
+.line{
+    width: 100%;
+    top: 2%;
+    left: 0;
+}  
+
+
+/* -------------------------------두번째 라인 */
+
+.line2{
+    width: 100%;
+    top: 20%;
+    left: 0;
+}   
+
+.icP{
+    top: 42%;
+    left: 28%;
+   transform: scale(0.7) rotate(8deg);
+}
+.icP:hover{
+    transform: scale(0.9) rotate(8deg);
+    cursor: pointer;
+}
+
+
+
+.icQ{
+    top: 44%;
+    left: 34%;
+   transform: scale(0.7) rotate(8deg);
+}
+.icQ:hover{
+    transform: scale(0.9) rotate(8deg);
+    cursor: pointer;
+}
+
+
+.icR{
+    top:45%;
+    left: 40%;
+   transform: scale(0.7) rotate(4deg);
+}
+.icR:hover{
+    transform: scale(0.9) rotate(5deg);
+    cursor: pointer;
+}
+
+
+
+.icS{
+    top:46%;
+    left: 46%;
+   transform: scale(0.7) rotate(0deg);
+}
+.icS:hover{
+    transform: scale(0.9) rotate(0deg);
+    cursor: pointer;
+}
+
+
+
+.icT{
+    top:46%;
+    left: 52%;
+   transform: scale(0.7) rotate(358deg);
+}
+.icT:hover{
+    transform: scale(0.9) rotate(358deg);
+    cursor: pointer;
+}
+
+
+
+.icU{
+    top:45%;
+    left: 58%;
+   transform: scale(0.7) rotate(356deg);
+}
+.icU:hover{
+    transform: scale(0.9) rotate(356deg);
+    cursor: pointer;
+}
+
+
+.icV{
+    top:43.5%;
+    left: 64%;
+   transform: scale(0.7) rotate(353deg);
+}
+.icV:hover{
+    transform: scale(0.9) rotate(353deg);
+    cursor: pointer;
+}
+
+
+/* ------------------------------ text */
+
+#container>.A{
+    width: 1700px;
+    height: 200px;
+    top: 30%;
+    left: 10%;
+   
+}
+#container>.A>li{
+    width: 280px;
+    height: 100px;
+    font-family: harry-p;
+    font-size: 1rem;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    opacity: 0.5;
+    color: blanchedalmond;
+}
+#container>.A>li:nth-child(6){
+    font-size: 2rem;
+    list-style:circle;
+    opacity: 1;
+}
+#container>.A>li:hover{
+    font-size: 2rem;
+    list-style:circle;
+    opacity: 1;
+}
+
+
+
+/* ------------------------------ 내용  */
+
+#container>.about{
+    width: 700px;
+    height: 800px;
+    top: 50%;
+    left: 35%;
+    text-align: center;
+    color: #C6BAB7;
+    font-family: cafe;
+
+}
+
+#container>.about>h1{
+    font-size: 3rem;
+    padding: 30px;
+    padding-bottom: 10px;
+
+}
+#container>.about>h2{
+    margin-bottom: 100px;
+
+}   
+#container>.about>p{
+  line-height: 50px;
+}
+
+/* ----------------- 푸터 */
+
+footer{
+    background-color: #292e27;
+    width:100%;
+    height: 200px;
+    color: #c6bab7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 0;
+}
+footer>.fB{
+        width: 1280px;
+        height: 100%;
+      position: relative;
+}
+
+footer>.fB>.f-L>a>img{
+    width: 45px;
+    height: 35px;
+    opacity: 0.5;
+    top: 10%;
+    left: 0;
+}
+
+footer>.fB >h1{
+    font-size: 16px;
+    font-weight: lighter;
+    top: 60%;
+    left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer>.fB> strong{
+        top: 35%;
+        left: 0;
+        font-size: large;
+        font-weight: bold;
+}
+footer>.fB> p{
+        top: 50%;
+        left: 12%;
+}
+
+
+
+/* -----------------------공통 */
+.p-a{
+    position: absolute;
+}
+.hidden{
+    display: none;
+}
+.d-b{
+    display: block;
+   z-index: 2;
+
+}
+/* .size{
+    transform:scale(0.9);
+} */
+/* ---------------------애니메이션 */
+
+@keyframes glow {
+    from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFDDA7, 0 0 40px #FFDDA7, 0 0 50px #FFDDA7, 0 0 60px #FFDDA7, 0 0 70px #FFDDA7;
+        }
+
+    to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #FBF1E0, 0 0 40px #FBF1E0, 0 0 50px #FBF1E0, 0 0 60px #FBF1E0, 0 0 70px #FBF1E0, 0 0 80px #FBF1E0;
+        }
+ }

@@ -1,0 +1,352 @@
+#s-three {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#s-three>.bg4 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#record {
+    width: 700px;
+    height: 700px;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(231, 219, 247);
+    border-radius: 50px;
+}
+
+#record-img {
+    width: 100%;
+    height: 100%;
+}
+
+/*  여기 부분입니다.. */
+
+
+.rc {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.rc1 {
+    width: 13%;
+    height: 25%;
+    bottom: 15%;
+    left: 3%;
+}
+
+.rc2 {
+    width: 13%;
+    height: 25%;
+    bottom: 40%;
+    left: 20%;
+}
+
+.rc3 {
+    width: 13%;
+    height: 25%;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+}
+
+.rc4 {
+    width: 13%;
+    height: 25%;
+    bottom: 40%;
+    right: 20%;
+}
+
+.rc5 {
+    width: 13%;
+    height: 25%;
+    bottom: 15%;
+    right: 3%;
+}
+
+.tittle1 {
+    top: 4%;
+    left: 50%;
+    z-index: 1;
+    font-size: 3rem;
+    font-family: mononoki-b;
+    transform: translateX(-50%);
+}
+
+#player {
+    width: 300px;
+    height: 60px;
+    z-index: 2;
+    bottom: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 3s;
+}
+
+/* 애니 메이션은 만들어놨으나... */
+@keyframes turn {
+    /* 0%{ 
+        transform:rotate(0deg);
+    } */
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+/* 마지막 해쉬영역 */
+#s-four {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg5 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#sign {
+    width: 50vw;
+    height: 10vh;
+    top: -15%;
+    left: 50%;
+    transition: 3s;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: 2px solid lightslategray;
+    background-color: rgb(243, 237, 229);
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.line {
+    width: 2vw;
+    height: 10vh;
+    background-color: rgb(207, 204, 200);
+    top: -8vh;
+    z-index: 1;
+}
+
+.lone {
+    left: -20vw;
+}
+
+.ltwo {
+    left: 18vw;
+}
+
+#sign>p {
+    font-size: 4rem;
+    font-family: mononoki-b;
+    z-index: 3;
+    left: -15vw;
+    top: 2vh;
+}
+
+#hash {
+    width: 80vw;
+    height: 20vh;
+    /* background-color: lightslategrey; */
+    top: 18vh;
+    transition: 3s;
+    opacity: 0;
+}
+.tag {
+    width: 5vw;
+    height: 5vh;
+    background-color: lightyellow;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.2rem;
+    font-family: mononoki-b;
+}
+
+.tag:hover {
+    background: rgba(229, 170, 198, 0.904);
+    animation: bring 1s infinite alternate;
+    color: white;
+    font-weight: bold;
+}
+
+.tag:nth-child(1) {
+    top: 0;
+    left: 3%;
+}
+
+.tag:nth-child(2) {
+    top: 0;
+    left: 20%;
+}
+
+.tag:nth-child(3) {
+    top: 0;
+    left: 37%;
+}
+
+.tag:nth-child(4) {
+    top: 0;
+    left: 54%;
+}
+
+.tag:nth-child(5) {
+    top: 0;
+    left: 71%;
+}
+
+.tag:nth-child(6) {
+    top: 0;
+    left: 88%;
+}
+
+.tag:nth-child(7) {
+    top: 50%;
+    left: 3%;
+}
+
+.tag:nth-child(8) {
+    top: 50%;
+    left: 20%;
+}
+
+.tag:nth-child(9) {
+    top: 50%;
+    left: 37%;
+}
+
+.tag:nth-child(10) {
+    top: 50%;
+    left: 54%;
+}
+
+.tag:nth-child(11) {
+    top: 50%;
+    left: 71%;
+}
+
+.tag:nth-child(12) {
+    top: 50%;
+    left: 88%;
+}
+
+#elbum{
+    width: 80vw;
+    height: 50vh;
+    top: 200vh;
+    background-color: rgb(191, 167, 223);
+    box-shadow: 1px 1px 1px 10px, rgb(13, 13, 14);
+    transition: 4s;
+    padding: 10px;
+}
+#elbum>div>img{
+    top: 1vh;
+    left: 10vw;
+}
+#elbum>div>.e-tittle{
+    width: 20vw;
+    height: auto;
+    font-size: 1.6rem;
+    top: 5vh;
+    left: 40vw;
+    color: #404040;
+    font-weight: bold;
+
+}
+#elbum>div>.siger{
+    width: 20vw;
+    height: auto;
+    font-size: 1.2rem;
+    top: 10vh;
+    left: 40vw;
+    
+}
+#elbum>div>.introduce{
+    width: 30vw;
+    height: 20vh;
+    font-size: 16px;
+    top: 15vh;
+    left: 40vw;
+    overflow: scroll;
+    
+}
+.bottomtag{
+    top: 40vh;
+    width: 4vw;
+    height: 3vh;
+    background-color: lightyellow;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1rem;
+    font-family: mononoki-b;
+}
+.luv{
+    background-color: tomato;
+}
+.elbum1{
+    transition: 3s;
+}
+.elbum2{
+    transition: 3s;
+}
+.bt1{
+    left: 40vw;
+}
+.bt2{
+    left: 47vw;
+}
+.bt3{
+    left: 54vw;
+}
+#elbum>div>button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: tomato;
+
+}
+#left{
+    top: 25vh;
+    left: 5vw;
+}
+#right{
+    top: 25vh;
+    left: 73vw;
+}
+.go{
+    width: 20vw;
+    top:35vh;
+    z-index: 3;
+    left: 40vw;
+}
+@keyframes bring {
+    0% {
+        box-shadow: 0px 0px 0px 5px rgba(241, 123, 178, 0.849)
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px 10px rgba(241, 123, 178, 0.849)
+    }
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+    }
+     .star1{
+         background-image: url(img/star1.svg);
+         width: 10px;
+         height: 10px;
+         position: absolute;
+     }
+     .star2{
+         background-image: url(img/star2.svg);
+         width: 10px;
+         height: 10px;
+         position: absolute;
+     }
+ </style>
+</head>
+<body>
+
+
+    <script>
+
+        
+        // for(let i = 0; i < 10; i++) {
+        //     const divOne = document.createElement('div');
+        //     document.body.appendChild(divOne);
+        // }
+        // const currectDiv = document.querySelectorAll('body > div');
+        // console.log(currectDiv);
+
+
+        for( let i = 0; i <50; i++){
+            const starOne = document.createElement('div');
+            document.body.appendChild(starOne);
+            starOne.classList.add('star1');
+        }
+        const currectStarOne = document.querySelectorAll('body>div');
+        console.log(currectStarOne);
+
+        function random (){
+            for(let i=0; i<currectStarOne.length;i++){
+        let width = Math.floor(Math.random()*1980);
+        let height = Math.floor(Math.random()*1440);
+        let sizeW = Math.floor(Math.random()*30);
+        let sizeh = Math.floor(Math.random()*30);
+        currectStarOne[i].style.top = (width+'px');
+        currectStarOne[i].style.left = (height+'px');
+        currectStarOne[i].style.width = (sizeW+2+'px');
+        currectStarOne[i].style.height = (sizeh-1+'px');
+        }  
+        };
+        bingbing();
+        function starbing(){
+            bingbing();
+        }
+
+        function bingbing(){
+            setInterval(function(){
+                random();
+            },500);
+        }
+        
+        addEventListener('onload',bingbing);
+        
+    </script>
+</body>
+</html>

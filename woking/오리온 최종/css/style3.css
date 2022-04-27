@@ -1,0 +1,211 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+a{text-decoration: none; color: #333;}
+ul,li{list-style: none;}
+
+
+.section1{overflow: hidden; height: auto;}
+
+.section1 #header{  align-items: center;  width: 100%; height: 100px; background-color: #fff; position: relative;}
+
+.section1 #header .con{ width: 100%; height: 100px; background-color: #fff; margin: 0 auto;  display: flex; align-items: center;}
+
+.section1 #header #logo { width: 200px; height: 200px; position: absolute; top: -50px; left:30px;}
+
+.section1 #header #logo img{ width: 100%; height: 100%;}
+.section1 #header nav{width: 70%; height: 100px; line-height: 100px; position: relative; top: 0%; right: -25%;}
+
+/* gnb */
+.section1 #header .gnb>li{float: left; width: 15%; text-align: center;}
+.section1 #header .gnb>li:hover .sub{display: block;}
+.section1 #header .gnb>li>a{font-size: 22px; display: block; font-family: "mob-b";}
+.section1 #header .gnb>li:hover>a{color: red;}
+
+
+/* 
+header nav>.drop-box {
+  width: 70%;
+  height: 300px;
+  background-color: lavenderblush;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  z-index: 1111111;
+} */
+/* 서브메뉴 */
+.section1 #header .sub{display: none; } 
+/* 서브메뉴 크기조절 */
+.section1 #header .sub>li{ line-height: 45px; text-align: center; position: relative; left: 50%; transform: translateX(-50%); z-index: 99; background-color: #FFF;}
+.section1 #header .sub>li>a{ font-size: 18px;  display: block; font-family: "noto-m";} 
+.section1 #header .sub>li>a:hover{ font-weight: bolder; color: #f44f41; ;}
+/* 보더 바텀 길이조절 */ 
+.section1 #header .sub>li p{width: 80%; margin: 0 auto;}
+/* 서브메뉴 호버시 밑줄 */
+.section1 #header .sub>li p:hover{border-bottom: 2px solid #f44a41;}
+
+
+
+/* 우측 상단 동그라미 4개 */
+/* .section1 #header nav .sns{float: right; height: 70px; width: 250px; position: absolute; top: 30%; right: 0; display: flex; justify-content:space-around;}
+.section1 #header nav .sns>div>img{ display: block; height: 35px; width: 35px;  float: left; position: absolute;  cursor: pointer;} */
+
+/* 우측 상단 동그라미 4개 호버시 */
+/* .section1 #header nav .sns1{float: right; height: 70px; width: 250px; position:absolute;top: 30%; right: 0; display: flex; justify-content:space-around;}
+.section1 #header nav .sns1>div>img{ display: block; height: 35px; width: 35px;  float: left; position: absolute; top: 0; left: 0;  cursor: pointer;} */
+
+.section1 .sns{
+  width: 25%; height: 100px;  position: relative; top:8%; left:90%;
+}
+.section1 .sns .icon1{
+  width: 20px; height: 100px; position: absolute; top: 0%; left: 0%; cursor: pointer;
+}
+.section1 .sns .icon2{
+  width: 20px; height: 100px; position: absolute; top: 0%; left: 50px; cursor: pointer;
+}
+.section1 .sns .icon3{
+  width: 20px; height: 100px; position: absolute; top: 0%; left: 100px; cursor: pointer;
+}
+.section1 .sns .icon4{
+  width: 20px; height: 100px; position: absolute; top: 0%; left: 150px; cursor: pointer;
+}
+
+#menu{width: 100%; height: 50px; background-color: #f6f6f6;}
+#menu-con{width: 1280px; height: 50px; display: flex; align-items: center; margin: 0 auto; background-color: #f6f6f6;}
+#menu-con a{margin: 20px; font-family: "noto-m"; font-size: 18px;}
+
+#wrap{width: 1280px; height: auto; margin: 0 auto;  }
+#menu-icon{width: 100%; height: 200px; background-color: #fff; display: flex; justify-content: center; padding-top: 20px;}
+#micon{width: 150px; height: 150px; background-color:#fff; position: relative; display: flex; justify-content: center;}
+#micon img{width: 70px; height: 70px; margin-top: 10px;}
+#micon img:hover{ cursor: pointer;}
+#micon p{font-size: 16px; color: #404040; position: absolute; bottom: 20%; left: 50%; transform: translateX(-50%); font-family: 'noto-m';}
+
+
+
+/* sub2 css */
+
+#S2-main{width: 100%; height: 900px; background-color: #FFEDA1; margin: 0 auto; position: relative;}
+#S2-main #inWrap{width: 1280px; height: 100%;margin: 0 auto;}
+
+#ddaom-l,#ddaom-r{position: absolute; z-index: 5;}
+#ddaom-l{top: 65%; left: 15%;}
+#ddaom-r{top: 88%; left: 46%;}
+
+#maintxt{
+  font-family: "mob-b";
+  font-size: 42px;
+}
+
+#S2-sub #maintxt{position: absolute; left: 50%; transform: translateX(-50%); top: 10%;}
+#S2-sub #subtxt{position: absolute; left: 50%; transform: translateX(-50%); top: 20%; font-family: "noto-m";}
+
+/* 초코파이 바나나 text */
+#S2-main #maintxt{position: absolute; top: 60px; right: 420px;}
+
+#S2-main #inWrap #bigbox{width: 600px; height: 480px; overflow: hidden; position: absolute; top: 60px; border-radius: 13px;}
+
+#S2-main #inWrap #rightbox{width: 490px; height: 180px; position: absolute; right: 360px; top: 180px; display: flex; justify-content: space-between; overflow: hidden;}
+#S2-main #inWrap #rightbox>div{height: 100%; width: 150px;  border-radius: 15px;}
+
+#S2-main #inWrap #centerbox{width: 700px; height: 120px; position: absolute; top: 400px; right: 250px; overflow: hidden;}
+
+#S2-main #inWrap #botbox{width: 600px; height: 280px; position: absolute; top: 575px;overflow: hidden; border-radius: 10px;}
+#S2-main #inWrap #botbox img{width: 100%; height: 100%;}
+
+#S2-main #inWrap #botimg{width: 490px; height: 290px; position: absolute; bottom: 40px; right: 400px; overflow: hidden;}
+#S2-main #inWrap #botimg>img{width: 100%; height: 100%;}
+
+/* 서브2 중간 박스 */
+#S2-sub{width: 1280px; height: 800px; margin: 0 auto; position: relative; border-bottom: 1px solid black; background-color: #fff;} 
+
+/* 화살표 */
+#S2-sub #arrow-l,#arrow-r{position: absolute; width: 24px; height: 42px;bottom: 13%; cursor: pointer;}
+#S2-sub #arrow-l{left: 2%;}
+#S2-sub #arrow-r{right: 2%;}
+#S2-sub #arrow-l img{width: 100%; height: 100%;}
+#S2-sub #arrow-r img{width: 100%; height: 100%;}
+
+#S2-sub #topbox{border: 1px solid white; width: 270px; height: 230px; position: absolute; top: 270px; left: 50%; transform: translateX(-50%); }
+
+#S2-sub #botbox{height: 260px; width: 980px; position: absolute; bottom: 0px; display: flex; align-items: center; justify-content: space-between; left: 50%; transform: translateX(-50%); overflow: hidden;}
+#S2-sub #botbox #minipie{width: 115px; height: 87px; overflow: hidden; cursor: pointer;}
+#S2-sub #botbox #minipie img{width: 100%; height: 100%;}
+
+#S2-sub #botbox #minipie:nth-child(1){opacity: .7;}
+#S2-sub #botbox #minipie:nth-child(2){opacity: .7;}
+#S2-sub #botbox #minipie:nth-child(3){opacity: .7;}
+#S2-sub #botbox #minipie:nth-child(4){opacity: .7;}
+#S2-sub #botbox #minipie:nth-child(5){opacity: .7;}
+
+#S2-sub #botbox #minipie:nth-child(1):hover{opacity: 1;}
+#S2-sub #botbox #minipie:nth-child(2):hover{opacity: 1;}
+#S2-sub #botbox #minipie:nth-child(3):hover{opacity: 1;}
+#S2-sub #botbox #minipie:nth-child(4):hover{opacity: 1;}
+#S2-sub #botbox #minipie:nth-child(5):hover{opacity: 1;}
+
+#S2-bot{width: 1280px; height: 750px; margin: 0 auto; position: relative; padding-top: 115px;}
+#S2-bot img{width: 100%; height: 100%;}
+#S2-bot #inbox{width: 1185px; height: 520px; margin: 0 auto;}
+
+#S2-bot #leftbox{width: 520px; height: 100%; background-color: black; float: left;}
+#S2-bot #leftbox #apt{width: 520px; height: 520px;}
+
+
+#S2-bot #rightbox{width: 565px; height: 100%; float: right; display: flex; justify-content: space-between; position: relative;}
+#S2-bot #rightbox #left{width: 250px; height: 420px;}
+#S2-bot #rightbox #right{width: 250px; height: 420px;}
+#S2-bot #rightbox #bot{width: 565px; height: 100px; border: 1px solid white; position: absolute; bottom: 0;}
+
+
+
+
+
+
+
+
+
+#footbar {
+  background-color: #666666;
+  color: #ababab;
+  bottom: 0px;
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  font-family: "noto-l";
+}
+
+/* 푸터로고 */
+#footbar .foot-con{width: 1280px; height: 100%; margin: 0 auto; position: relative; padding-top: 20px;}
+#footbar .foot-logo{width: 140px; height: 35px;}
+#footbar .foot-logo a img{ width: 100%; height: 35px; display: block;}
+
+/* 푸터 텍스트 */
+#foot-text{margin-top: 40px; margin-left: 15; display: flex; justify-content: space-between; align-items: center; width: 380px; font-family: 'noto-r';}
+#foot-text a{display: block; padding-right: 15px; border-right: 1px solid #ababab; font-family: 'noto-r';}
+#foot-text p{display: block; color: #ababab; font-family: 'noto-r'; font-size: 13px;}
+#foot-text a:last-child{border-right: 0;}
+
+/* 카피라이트 */
+#copy{position: absolute; right: 20px; top: 65px; color: #ababab; font-weight: 100; font-family: 'noto-r'; font-size: 11px;} 
+
+/* 주소 전화번호 등 */
+#foot-juso{font-size: 11px; width: 1200px; height: 30px; color: #ababab; margin-top: 5px; margin-left: 0px; font-family: 'noto-r';}
+
+@font-face{
+	src: url(../font/DXMobrGExtraBold-KSCpc-EUC-H.ttf);
+	font-family: "mob-b";
+}
+
+@font-face {
+  font-family: 'noto-m';
+  src: url(../font/NotoSansCJKkr-Medium.otf);
+}
+
+@font-face {
+  font-family: "noto-r";
+  src: url(../font/NotoSansCJKkr-Regular.otf);
+}
+
+@font-face {
+  font-family: "noto-l";
+  src: url(../font/NotoSansCJKkr-Light.otf);
+}

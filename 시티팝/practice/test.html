@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		body {
+			background-color: black;
+		}
+		.star{
+			background-image: url(img/star1.svg);
+			width: 20px;
+			height: 20px;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<!-- <div class="star1"><img src="img/star1.svg"  alt="스타1"></div> -->
+	<!-- <div id="star1"><img src="img/star2.svg" alt="스타2"></div> -->
+
+
+	<script>
+		
+		const $star = document.querySelectorAll('div'); 
+		console.log($star);
+	for(let i = 0; i<100; i++){
+		const div = document.createElement('div');
+		document.body.appendChild(div);
+		div.classList.add('star');
+	}
+
+
+
+	</script>
+
+</html>
