@@ -26,7 +26,7 @@ a{
 /* -----------로고 앤 메뉴 */
 
 #container{
-    width: 100%;
+    width: 100vw;
     height:3000px;
     position: relative;
     background-color: #20302A;
@@ -51,7 +51,7 @@ a{
     /* display: inline-flex; */
 
  }
- #container>.logo>.menu>li{
+ #container>.logo>.menu>a>li{
 
     margin-right: 130px;
     opacity: 0.5;
@@ -59,67 +59,80 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
  }
-#container>.logo>.menu>li:hover{
+#container>.logo>.menu>a>li:hover{
     opacity: 1;
     animation: glow 1s ease-in-out infinite alternate;
     cursor: pointer;
 }
 
-
-h1{
+.back{
+    width: 50px;
+    height: 50px;
+    top: 1%;
+    right: 3%;
+    background-color: rgb(165, 179, 161);
+    border-radius:50% ;
+    line-height: 50px;
+    text-align: center;
+    font-family:'kotra';
+    color: #fff;
+    text-shadow: 1px 1px 0px #20302A;
+}
+.openText{
     font-family: harry-p;
     font-size: 5rem;
     color: #FBF1E0;
+    width: 1200px;
     top: 150px;
-    left:20%;
+    left:50%;
+    transform: translateX(-50%);
     font-weight: lighter;
-    z-index: 999;
+    z-index: 1;
 
 }
 
-h1>strong{
+.openText>strong{
     font-size: 10rem;
     font-weight: lighter;
 }
 
 /*------------------------가랜드 */
 
-#container>.garland{
+.garland{
     width: 100vw;
-    height: 50%;
-    top:9%;
+    height: 30%;
+    top:20vh;
     left: 0;
 }
 /* 가랜드 아이콘 */
-#container>.garland>.a-part>.icA{
-    top: 75px;
+.icA{
+    top: 12%;
     left: 9%;
    transform: scale(0.7) rotate(17deg);
 }
-#container>.garland>.a-part>.icA:hover{
+.icA:hover{
     transform: scale(0.9) rotate(17deg);
     cursor: pointer;
 }
 
 
-
-#container>.garland>.a-part>.icB{
-    top: 107px;
+.icB{
+    top: 16.5%;
     left: 15%;
    transform: scale(0.7) rotate(14deg);
 }
- #container>.garland>.a-part>.icB:hover{
+.icB:hover{
     transform: scale(0.9) rotate(14deg);
     cursor: pointer;
 } 
 
 
-#container>.garland>.a-part>.icC{
-    top: 134px;
+.icC{
+    top: 20.5%;
     left: 21%;
    transform: scale(0.7) rotate(12deg);
 }
-#container>.garland>.a-part>.icC:hover{
+.icC:hover{
     transform: scale(0.9) rotate(12deg);
     cursor: pointer;
 }
@@ -127,221 +140,226 @@ h1>strong{
 
 
 
-#container>.garland>.a-part>.icD{
-    top: 155px;
+.icD{
+    top: 23.5%;
     left: 27%;
    transform: scale(0.7) rotate(10deg);
 }
- #container>.garland>.a-part>.icD:hover{
+.icD:hover{
     transform: scale(0.9) rotate(10deg);
     cursor: pointer;
 } 
 
 
 
-#container>.garland>.a-part>.icE{
-    top: 172px;
+.icE{
+    top: 25.5%;
     left: 33%;
    transform: scale(0.7) rotate(8deg);
 }
-#container>.garland>.a-part>.icE:hover{
+.icE:hover{
     transform: scale(0.9) rotate(8deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.a-part>.icF{
-    top: 184px;
+.icF{
+    top: 27%;
     left: 39%;
    transform: scale(0.7) rotate(5deg);
 }
-#container>.garland>.a-part>.icF:hover{
+.icF:hover{
     transform: scale(0.9) rotate(5deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.a-part>.icG{
-    top: 190px;
+.icG{
+    top: 28%;
     left: 45%;
    transform: scale(0.7) rotate(3deg);
 }
-#container>.garland>.a-part>.icG:hover{
+.icG:hover{
     transform: scale(0.9) rotate(3deg);
     cursor: pointer;
 }
 
 
-#container>.garland>.a-part>.icH{
-    top: 188px;
+.icH{
+    top: 28%;
     left: 51%;
    transform: scale(0.7) rotate(359deg);
 }
-#container>.garland>.a-part>.icH:hover{
+.icH:hover{
     transform: scale(0.9) rotate(359deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.a-part>.icI{
-    top: 186px;
+.icI{
+    top: 27.5%;
     left: 57%;
    transform: scale(0.7) rotate(357deg);
 }
-#container>.garland>.a-part>.icI:hover{
+.icI:hover{
     transform: scale(0.9) rotate(357deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.a-part>.icK{
-    top: 176px;
+.icK{
+    top: 26%;
     left: 63%;
-   transform: scale(0.7) rotate(353deg);
+   transform: scale(0.7) rotate(355deg);
 }
- #container>.garland>.a-part>.icK:hover{
+ .icK:hover{
     transform: scale(0.9) rotate(353deg);
     cursor: pointer;
 } 
 
 
 
-#container>.garland>.a-part>.icL{
-    top: 162px;
+.icL{
+    top: 24%;
     left: 69%;
    transform: scale(0.7) rotate(351deg);
 }
-#container>.garland>.a-part>.icL:hover{
+.icL:hover{
     transform: scale(0.9) rotate(351deg);
     cursor: pointer;
 }
 
 
-#container>.garland>.a-part>.icM{
-    top: 142px;
+.icM{
+    top: 21.5%;
     left: 75%;
    transform: scale(0.7) rotate(348deg);
 }
-#container>.garland>.a-part>.icM:hover{
+.icM:hover{
     transform: scale(0.9) rotate(348deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.a-part>.icN{
-    top: 115px;
+.icN{
+    top:17.5%;
     left: 81%;
    transform: scale(0.7) rotate(345deg);
 }
-#container>.garland>.a-part>.icN:hover{
+.icN:hover{
     transform: scale(0.9) rotate(345deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.a-part>.icO{
-    top: 82px;
+.icO{
+    top: 13.5%;
     left: 87%;
    transform: scale(0.7) rotate(342deg);
 }
-#container>.garland>.a-part>.icO:hover{
+.icO:hover{
     transform: scale(0.9) rotate(342deg);
     cursor: pointer;
 }
 
 
-
+.line{
+    width: 100%;
+    top: 2%;
+    left: 0;
+}  
 
 
 /* -------------------------------두번째 라인 */
 
-#container>.garland>.b-part>.line2{
-    top: 200px;
+.line2{
+    width: 100%;
+    top: 20%;
     left: 0;
 }   
 
-#container>.garland>.b-part>.icP{
-    top: 360px;
+.icP{
+    top: 42%;
     left: 28%;
    transform: scale(0.7) rotate(8deg);
 }
-#container>.garland>.b-part>.icP:hover{
+.icP:hover{
     transform: scale(0.9) rotate(8deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.b-part>.icQ{
-    top: 375px;
+.icQ{
+    top: 44%;
     left: 34%;
    transform: scale(0.7) rotate(8deg);
 }
-#container>.garland>.b-part>.icQ:hover{
+.icQ:hover{
     transform: scale(0.9) rotate(8deg);
     cursor: pointer;
 }
 
 
-#container>.garland>.b-part>.icR{
-    top:385px;
+.icR{
+    top:45%;
     left: 40%;
-   transform: scale(0.7) rotate(5deg);
+   transform: scale(0.7) rotate(4deg);
 }
-#container>.garland>.b-part>.icR:hover{
+.icR:hover{
     transform: scale(0.9) rotate(5deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.b-part>.icS{
-    top:390px;
+.icS{
+    top:46%;
     left: 46%;
    transform: scale(0.7) rotate(0deg);
 }
-#container>.garland>.b-part>.icS:hover{
+.icS:hover{
     transform: scale(0.9) rotate(0deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.b-part>.icT{
-    top:389px;
+.icT{
+    top:46%;
     left: 52%;
    transform: scale(0.7) rotate(358deg);
 }
-#container>.garland>.b-part>.icT:hover{
+.icT:hover{
     transform: scale(0.9) rotate(358deg);
     cursor: pointer;
 }
 
 
 
-#container>.garland>.b-part>.icU{
-    top:384px;
+.icU{
+    top:45%;
     left: 58%;
    transform: scale(0.7) rotate(356deg);
 }
-#container>.garland>.b-part>.icU:hover{
+.icU:hover{
     transform: scale(0.9) rotate(356deg);
     cursor: pointer;
 }
 
 
-#container>.garland>.b-part>.icV{
-    top:373px;
+.icV{
+    top:43.5%;
     left: 64%;
    transform: scale(0.7) rotate(353deg);
 }
-#container>.garland>.b-part>.icV:hover{
+.icV:hover{
     transform: scale(0.9) rotate(353deg);
     cursor: pointer;
 }
@@ -353,7 +371,7 @@ h1>strong{
     width: 1700px;
     height: 200px;
     top: 30%;
-    left: 5%;
+    left: 10%;
    
 }
 #container>.A>li{
@@ -461,6 +479,8 @@ footer>.fB> p{
 }
 .d-b{
     display: block;
+   z-index: 2;
+
 }
 /* .size{
     transform:scale(0.9);

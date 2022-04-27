@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choose the magic class you want.</title>
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-
-
+    <style>
+        @font-face {
+            font-family:'harry-p';
+            src: url(font/harry-p.ttf);
+        }
+        @font-face {
+            font-family:'kotra';
+            src: url(font/KOTRA\ HOPE_TTF.ttf);
+        }
+        a:link{color: #fff;}
+        a:visited{ color: #fff;}
+    </style>
 
     <div id="container">
            
@@ -18,19 +27,19 @@
             <div class="logo">
                     <img class="p-a" id="Lo" src="img/logo-m.png" alt="로고">
                         <ul class="menu p-a hidden " id="Mu">
-                            <li><a href="../main/main.html"></a> Home</li>
-                            <li><a href="#"></a> Lesson</li>
-                            <li><a href="#"></a> Test</li>
-                            <li><a href="#"></a> Character</li>
-                            <li><a href="#"></a> Shop</li>
+                            <a href="sub-L.html"> <li>Lesson</li></a> 
+                            <a href="sub-L.html"> <li>Test</li></a> 
+                            <a href="sub-L.html"> <li>Character</li></a> 
+                            <a href="sub-L.html"> <li>Shop</li></a> 
+                 
                         </ul>
             </div>
             
 
 
 
-         <h1 class="p-a"> <strong>C</strong>hoose the magic class you want it </h1>
-               
+         <h1 class="p-a openText"> <strong>C</strong>hoose the magic class you want it </h1>
+            <div class="back p-a"><a href="index.html">HOME</a> </div>
          
          <div class="garland p-a ">
                    <div class="a-part">
@@ -130,23 +139,7 @@
                     
                 });
 
-            // const li = document.querySelectorAll('.size');
-            //     console.dir(li);
-               
-                
-                
-                // const alpaOne = document.getElementsByClassName("a-part .size");
-                // const alpaTwo = document.getElementsByClassName("b-part .size");
-
-                // setInterval(function(){
-                //     alpaOne = alpaOne;
-                //     alpaTwo = alpaTwo;
-                //     alpaOne.addEventListener('click',function(){ 
-                //     alpaOne.style.scale = 0.9;
-                    
-                // });
-                // }, 50);
-     
+         
     </script>
 </body>
 </html>
