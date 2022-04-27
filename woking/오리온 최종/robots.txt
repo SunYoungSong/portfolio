@@ -1,3 +1,0 @@
-User-agent: *
-Allow:/
-Sitemap: https://sakurabo.netlify.app/#0/sitemap.xml
