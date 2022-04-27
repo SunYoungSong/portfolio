@@ -58,6 +58,8 @@ console.log(sectionTwoTextRight);
  wai.addEventListener('click',function(){
     sectionTwo.classList.remove('hidden');
     sectionTwoTextLeft.classList.add('textShaking');
+    sectionTwoTextRight.classList.add('textShaking');
+
           
     console.log(percentDiv);
     for(let i=0; i<percentDiv.length;i++){
