@@ -96,7 +96,6 @@ me.addEventListener('click',function(){
     bubble.classList.toggle('hidden');
     bubbleText.classList.add('textOn');
     me.style.cursor = 'pointer';
-    
 });
 
 

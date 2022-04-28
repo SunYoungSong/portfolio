@@ -106,7 +106,7 @@ a{
 }
 /* 가랜드 아이콘 */
 .icA{
-    top: 12%;
+    top: 12.5%;
     left: 9%;
    transform: scale(0.7) rotate(17deg);
 }
@@ -117,7 +117,7 @@ a{
 
 
 .icB{
-    top: 16.5%;
+    top: 17.5%;
     left: 15%;
    transform: scale(0.7) rotate(14deg);
 }
@@ -128,7 +128,7 @@ a{
 
 
 .icC{
-    top: 20.5%;
+    top: 21.5%;
     left: 21%;
    transform: scale(0.7) rotate(12deg);
 }
@@ -141,7 +141,7 @@ a{
 
 
 .icD{
-    top: 23.5%;
+    top: 25%;
     left: 27%;
    transform: scale(0.7) rotate(10deg);
 }
@@ -153,7 +153,7 @@ a{
 
 
 .icE{
-    top: 25.5%;
+    top: 28%;
     left: 33%;
    transform: scale(0.7) rotate(8deg);
 }
@@ -165,7 +165,7 @@ a{
 
 
 .icF{
-    top: 27%;
+    top: 29.5%;
     left: 39%;
    transform: scale(0.7) rotate(5deg);
 }
@@ -177,7 +177,7 @@ a{
 
 
 .icG{
-    top: 28%;
+    top: 30.5%;
     left: 45%;
    transform: scale(0.7) rotate(3deg);
 }
@@ -188,7 +188,7 @@ a{
 
 
 .icH{
-    top: 28%;
+    top: 31%;
     left: 51%;
    transform: scale(0.7) rotate(359deg);
 }
@@ -200,7 +200,7 @@ a{
 
 
 .icI{
-    top: 27.5%;
+    top: 30%;
     left: 57%;
    transform: scale(0.7) rotate(357deg);
 }
@@ -212,7 +212,7 @@ a{
 
 
 .icK{
-    top: 26%;
+    top: 29%;
     left: 63%;
    transform: scale(0.7) rotate(355deg);
 }
@@ -224,7 +224,7 @@ a{
 
 
 .icL{
-    top: 24%;
+    top: 27%;
     left: 69%;
    transform: scale(0.7) rotate(351deg);
 }
@@ -235,7 +235,7 @@ a{
 
 
 .icM{
-    top: 21.5%;
+    top: 24%;
     left: 75%;
    transform: scale(0.7) rotate(348deg);
 }
@@ -247,7 +247,7 @@ a{
 
 
 .icN{
-    top:17.5%;
+    top:19.5%;
     left: 81%;
    transform: scale(0.7) rotate(345deg);
 }
@@ -259,7 +259,7 @@ a{
 
 
 .icO{
-    top: 13.5%;
+    top: 15%;
     left: 87%;
    transform: scale(0.7) rotate(342deg);
 }
@@ -371,7 +371,7 @@ a{
     width: 1700px;
     height: 200px;
     top: 30%;
-    left: 10%;
+    left: 15%;
    
 }
 #container>.A>li{

@@ -75,11 +75,22 @@
 }
 
 .tittle1 {
-    top: 4%;
+    top: 2%;
     left: 50%;
     z-index: 1;
-    font-size: 3rem;
-    font-family: mononoki-b;
+    font-size: 4rem;
+    font-family: 'DungGeunMo';
+    font-weight: bold;
+    transform: translateX(-50%);
+}
+
+.tittle2 {
+    top: 8.5%;
+    left: 50%;
+    z-index: 1;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-family: 'DungGeunMo';
     transform: translateX(-50%);
 }
 
@@ -127,6 +138,7 @@
     top: -15%;
     left: 50%;
     transition: 3s;
+    text-align: center;
 }
 
 .block {
@@ -157,9 +169,10 @@
 
 #sign>p {
     font-size: 4rem;
-    font-family: mononoki-b;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold;
     z-index: 3;
-    left: -15vw;
+    left: -12vw;
     top: 2vh;
 }
 
@@ -171,6 +184,7 @@
     transition: 3s;
     opacity: 0;
 }
+
 .tag {
     width: 5vw;
     height: 5vh;
@@ -249,7 +263,7 @@
     left: 88%;
 }
 
-#elbum{
+#elbum {
     width: 80vw;
     height: 50vh;
     top: 200vh;
@@ -258,11 +272,13 @@
     transition: 4s;
     padding: 10px;
 }
-#elbum>div>img{
+
+#elbum>div>img {
     top: 1vh;
     left: 10vw;
 }
-#elbum>div>.e-tittle{
+
+#elbum>div>.e-tittle {
     width: 20vw;
     height: auto;
     font-size: 1.6rem;
@@ -272,24 +288,27 @@
     font-weight: bold;
 
 }
-#elbum>div>.siger{
+
+#elbum>div>.siger {
     width: 20vw;
     height: auto;
     font-size: 1.2rem;
     top: 10vh;
     left: 40vw;
-    
+
 }
-#elbum>div>.introduce{
+
+#elbum>div>.introduce {
     width: 30vw;
     height: 20vh;
     font-size: 16px;
     top: 15vh;
     left: 40vw;
     overflow: scroll;
-    
+
 }
-.bottomtag{
+
+.bottomtag {
     top: 40vh;
     width: 4vw;
     height: 3vh;
@@ -300,25 +319,32 @@
     font-size: 1rem;
     font-family: mononoki-b;
 }
-.luv{
+
+.luv {
     background-color: tomato;
 }
-.elbum1{
+
+.elbum1 {
     transition: 3s;
 }
-.elbum2{
+
+.elbum2 {
     transition: 3s;
 }
-.bt1{
+
+.bt1 {
     left: 40vw;
 }
-.bt2{
+
+.bt2 {
     left: 47vw;
 }
-.bt3{
+
+.bt3 {
     left: 54vw;
 }
-#elbum>div>button{
+
+#elbum>div>button {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -326,20 +352,24 @@
     background-color: tomato;
 
 }
-#left{
+
+#left {
     top: 25vh;
     left: 5vw;
 }
-#right{
+
+#right {
     top: 25vh;
     left: 73vw;
 }
-.go{
+
+.go {
     width: 20vw;
-    top:35vh;
+    top: 35vh;
     z-index: 3;
     left: 40vw;
 }
+
 @keyframes bring {
     0% {
         box-shadow: 0px 0px 0px 5px rgba(241, 123, 178, 0.849)
